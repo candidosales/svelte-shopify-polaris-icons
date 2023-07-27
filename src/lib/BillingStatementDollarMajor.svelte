@@ -1,0 +1,24 @@
+
+<script lang="ts">
+    import { twMerge } from 'tailwind-merge';
+    export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
+    export let role: string = 'img';
+    const sizes = {
+        xs: 'w-3 h-3',
+        sm: 'w-4 h-4',
+        md: 'w-5 h-5',
+        lg: 'w-6 h-6',
+        xl: 'w-8 h-8'
+    };
+    export let ariaLabel = 'billing statement dollar';
+</script>
+
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    {...$$restProps}
+    class={twMerge('shrink-0', sizes[size], $$props.class)}
+    {role}
+    aria-label={ariaLabel}
+    viewBox="0 0 20 20"
+><path fill-rule="evenodd" d="M4.963 17.4a1.5 1.5 0 0 1-.963-1.4v-11a2.5 2.5 0 0 1 2.5-2.5h7a2.5 2.5 0 0 1 2.5 2.5v11a1.5 1.5 0 0 1-2.615 1.003l-1.135-1.26-1.135 1.26a1.5 1.5 0 0 1-2.23 0l-1.135-1.26-1.135 1.26a1.5 1.5 0 0 1-1.652.397Zm7.388-3.4h-.203a.995.995 0 0 0-.641.326l-1.507 1.674-1.507-1.674a.995.995 0 0 0-.641-.326h-.204a.995.995 0 0 0-.641.326l-1.507 1.674v-11a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v11l-1.507-1.674a.995.995 0 0 0-.642-.326Z" fill="#5C5F62"/><path d="M10.25 5a.75.75 0 0 0-.75.75v.25a2 2 0 1 0 0 4h1a.5.5 0 0 1 0 1h-2.25a.75.75 0 0 0 0 1.5h.75v.25a.75.75 0 0 0 1.5 0v-.25a2 2 0 1 0 0-4h-1a.5.5 0 0 1 0-1h2.25a.75.75 0 0 0 0-1.5h-.75v-.25a.75.75 0 0 0-.75-.75Z" fill="#5C5F62"/></svg>

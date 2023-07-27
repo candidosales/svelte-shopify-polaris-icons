@@ -1,0 +1,24 @@
+
+<script lang="ts">
+    import { twMerge } from 'tailwind-merge';
+    export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
+    export let role: string = 'img';
+    const sizes = {
+        xs: 'w-3 h-3',
+        sm: 'w-4 h-4',
+        md: 'w-5 h-5',
+        lg: 'w-6 h-6',
+        xl: 'w-8 h-8'
+    };
+    export let ariaLabel = 'reports';
+</script>
+
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    {...$$restProps}
+    class={twMerge('shrink-0', sizes[size], $$props.class)}
+    {role}
+    aria-label={ariaLabel}
+    viewBox="0 0 20 20"
+><path d="M8.5 12.25a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0v-2Z" fill="#5C5F62"/><path d="M12.25 11.5a.75.75 0 0 1 .75.75v2a.75.75 0 0 1-1.5 0v-2a.75.75 0 0 1 .75-.75Z" fill="#5C5F62"/><path d="M10.75 14.25v-3.5a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0Z" fill="#5C5F62"/><path fill-rule="evenodd" d="M6.75 2.5a2.75 2.75 0 0 0-2.75 2.75v9.5a2.75 2.75 0 0 0 2.75 2.75h6.5a2.75 2.75 0 0 0 2.75-2.75v-6.25a.75.75 0 0 0-.22-.53l-5.25-5.25a.75.75 0 0 0-.53-.22h-3.25Zm-1.25 2.75c0-.69.56-1.25 1.25-1.25h2.5v3.5c0 .966.784 1.75 1.75 1.75h3.5v5.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-9.5Zm7.94 2.5-2.69-2.69v2.44c0 .138.112.25.25.25h2.44Z" fill="#5C5F62"/></svg>
