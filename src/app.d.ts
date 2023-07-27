@@ -4,6 +4,10 @@
 // for information about these interfaces
 // and what to do when importing types
 declare namespace App {
+	interface Icon {
+		icon: SvelteComponentTyped;
+		name: string;
+	}
 	// interface Error {}
 	// interface Locals {}
 	// interface PageData {}
