@@ -14,21 +14,13 @@
 		description: 'Svelte Shopify Polaris Icons',
 		images: [
 			{
-				url: 'https://www.example.ie/og-image-01.jpg',
-				width: 800,
+				url: 'https://svelte-shopify-polaris-icons.vercel.app/cover-open-graph-1200-600.png',
+				width: 1200,
 				height: 600,
-				alt: 'Og Image Alt'
-			},
-			{
-				url: 'https://www.example.ie/og-image-02.jpg',
-				width: 900,
-				height: 800,
-				alt: 'Og Image Alt Second'
-			},
-			{ url: 'https://www.example.ie/og-image-03.jpg' },
-			{ url: 'https://www.example.ie/og-image-04.jpg' }
+				alt: 'Svelte Shopify Polaris Icons cover'
+			}
 		],
-		site_name: 'SiteName'
+		site_name: 'Svelte Shopify Polaris Icons'
 	}}
 	twitter={{
 		handle: '@candidosales',
@@ -36,8 +28,8 @@
 		cardType: 'summary_large_image',
 		title: 'Svelte Shopify Polaris Icons',
 		description: 'Svelte Shopify Polaris Icons',
-		image: 'https://www.example.ie/twitter-image.jpg',
-		imageAlt: 'Twitter image alt'
+		image: 'https://svelte-shopify-polaris-icons.vercel.app/cover-open-graph-1200-600.png',
+		imageAlt: 'Svelte Shopify Polaris Icons cover'
 	}}
 />
 <div class="relative max-w-7xl mx-auto px-4 sm:px-6 mt-20 prose">

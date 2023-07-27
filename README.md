@@ -132,3 +132,19 @@ If you want to make an icon unfocusable, add `tabindex="-1"`.
 	});
 </script>
 ```
+
+## 👍 Contribute
+
+If you want to say thank you and/or support the active development this project:
+
+1. Add a [GitHub Star](https://github.com/candidosales/svelte-shopify-polaris-icons/stargazers) to the project.
+2. Write a review or tutorial on [Medium](https://medium.com/), [Dev.to](https://dev.to/) or personal blog.
+3. Support the project by donating a [cup of coffee](https://buymeacoff.ee/candidosales).
+
+## ☕ Supporters
+
+If you want to support Personal Portfolio, you can ☕ [**buy a coffee here**](https://buymeacoff.ee/candidosales)
+
+## ⚠️ Copyright and license
+
+Code and documentation copyright 2020-2030 the [Authors](https://github.com/candidosales/svelte-shopify-polaris-icons/graphs/contributors) and Code released under the [MIT License](https://github.com/candidosales/svelte-shopify-polaris-icons/blob/master/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
