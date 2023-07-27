@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/candidosales/svelte-shopify-polaris-icons/compare/v0.0.15...v0.0.16) (2023-07-27)
+
+
+### Features
+
+* added all icons ([8276b1b](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/8276b1b674a3360a49f6dd2f736a48a2ea15271c))
+* improved home screen, refactor icons list, added more icons ([dc530c7](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/dc530c7779467b40cb54f4cc8a3a2aca8bba7703))
+
+
+### Bug Fixes
+
+* fix dependencies ([aa4f5cc](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/aa4f5cc305db449883b6749a20096c52c9cf8cae))
+
 ### [0.0.15](https://github.com/candidosales/svelte-shopify-polaris-icons/compare/v0.0.14...v0.0.15) (2023-07-27)
 
 ### [0.0.14](https://github.com/candidosales/svelte-shopify-polaris-icons/compare/v0.0.13...v0.0.14) (2023-07-27)
