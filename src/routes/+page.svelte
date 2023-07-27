@@ -1,7 +1,7 @@
 <script>
-	import AbandonedCartFilledMajor from '$lib/icons/AbandonedCartFilledMajor.svelte';
-	import AbandonedCartMajor from '$lib/icons/AbandonedCartMajor.svelte';
-	import Accessibility from '$lib/icons/Accessibility.svelte';
+	import AbandonedCartFilledMajor from '$lib/AbandonedCartFilledMajor.svelte';
+	import AbandonedCartMajor from '$lib/AbandonedCartMajor.svelte';
+	import Accessibility from '$lib/Accessibility.svelte';
 
 	const majorIcons = [
 		{

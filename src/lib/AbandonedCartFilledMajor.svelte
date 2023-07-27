@@ -1,4 +1,24 @@
-<svg viewBox="0 0 20 20" style="width: 20px; height: 20px;"
+<script lang="ts">
+	import { twMerge } from 'tailwind-merge';
+	export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
+	export let role: string = 'img';
+	const sizes = {
+		xs: 'w-3 h-3',
+		sm: 'w-4 h-4',
+		md: 'w-5 h-5',
+		lg: 'w-6 h-6',
+		xl: 'w-8 h-8'
+	};
+	export let ariaLabel = 'abandoned cart filled';
+</script>
+
+<svg
+	fill="currentColor"
+	{...$$restProps}
+	class={twMerge('shrink-0', sizes[size], $$props.class)}
+	{role}
+	aria-label={ariaLabel}
+	viewBox="0 0 20 20"
 	><path
 		d="M2.5 3.75a.75.75 0 0 1 .75-.75h1.612a1.75 1.75 0 0 1 1.732 1.5h9.656a.75.75 0 0 1 .748.808l-.358 4.653a2.75 2.75 0 0 1-2.742 2.539h-6.351l.093.78a.25.25 0 0 0 .248.22h6.362a.75.75 0 0 1 0 1.5h-6.362a1.75 1.75 0 0 1-1.738-1.543l-1.04-8.737a.25.25 0 0 0-.248-.22h-1.612a.75.75 0 0 1-.75-.75Zm6.708 2.458a.625.625 0 0 0 0 .884l1.408 1.408-1.408 1.408a.625.625 0 1 0 .884.884l1.408-1.408 1.408 1.408a.625.625 0 1 0 .884-.884l-1.408-1.408 1.408-1.408a.625.625 0 0 0-.884-.884l-1.408 1.408-1.408-1.408a.625.625 0 0 0-.884 0Z"
 	></path><path d="M10 17a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path><path
