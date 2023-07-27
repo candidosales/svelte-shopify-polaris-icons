@@ -1,6 +1,6 @@
 {
 	"name": "svelte-shopify-polaris-icons",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"description": "Svelte Shopify Polaris Icons",
 	"author": {
 		"name": "Candido Sales Gomes",
@@ -87,10 +87,6 @@
 		"./AbandonedCartMajor.svelte": {
 			"types": "./dist/AbandonedCartMajor.svelte.d.ts",
 			"svelte": "./dist/AbandonedCartMajor.svelte"
-		},
-		"./Accessibility.svelte": {
-			"types": "./dist/Accessibility.svelte.d.ts",
-			"svelte": "./dist/Accessibility.svelte"
 		}
 	},
 	"license": "MIT"
