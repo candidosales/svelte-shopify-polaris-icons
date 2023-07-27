@@ -1,6 +1,6 @@
 {
-	"name": "svelte-shopify-polaris-icons",
-	"version": "0.0.11",
+	"name": "@candidosales/svelte-shopify-polaris-icons",
+	"version": "0.0.12",
 	"description": "Svelte Shopify Polaris Icons",
 	"author": {
 		"name": "Candido Sales Gomes",
