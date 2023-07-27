@@ -2372,5 +2372,8 @@
       "svelte": "./dist/YoutubeMinor.svelte"
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "svelte-meta-tags": "^2.8.0"
+  }
 }

@@ -3,7 +3,7 @@
 </script>
 
 <head>
-	<title>[WIP] Svelte Shopify Polaris Icons</title>
+	<title>Svelte Shopify Polaris Icons</title>
 	<meta name="description" content="Svelte Shopify Polaris Icons" />
 	<meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />
