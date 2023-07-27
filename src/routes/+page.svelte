@@ -34,13 +34,12 @@
 	];
 </script>
 
-<div class="relative max-w-7xl mx-auto px-4 sm:px-6 mt-20">
-	<h1 class="text-2xl text-slate-800">Welcome to your Svelte Shopify Polaris Icons</h1>
-	<p class="text-slate-600 mb-8 text-md">
-		Create your package using @sveltejs/package and preview/showcase your work with SvelteKit
-	</p>
+<div class="relative max-w-7xl mx-auto px-4 sm:px-6 mt-20 prose">
+	<h1>Welcome to your Svelte Shopify Polaris Icons</h1>
+	<p class="text-slate-600 mb-2 text-md">Installation</p>
+	<pre class="mt-0">pnpm i -D @candidosales/svelte-shopify-polaris-icons</pre>
 
-	<h2 class="text-xl text-slate-800 mb-4">Major icons</h2>
+	<h2>Major icons</h2>
 
 	<div
 		class="lg:gap-x-8 lg:grid-cols-5 mb-8 sm:gap-x-6 sm:gap-y-8 sm:grid sm:grid-cols-2 sm:space-y-0 space-y-4"
@@ -54,5 +53,5 @@
 			</div>
 		{/each}
 	</div>
-	<h2 class="text-xl text-slate-800 mb-4">Minor icons</h2>
+	<h2>Minor icons</h2>
 </div>
