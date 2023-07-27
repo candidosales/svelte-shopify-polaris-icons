@@ -13,6 +13,7 @@
 </script>
 
 <svg
+	xmlns="http://www.w3.org/2000/svg"
 	fill="currentColor"
 	{...$$restProps}
 	class={twMerge('shrink-0', sizes[size], $$props.class)}

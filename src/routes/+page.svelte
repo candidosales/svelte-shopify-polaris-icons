@@ -1,7 +1,10 @@
 <script>
 	import AbandonedCartFilledMajor from '$lib/AbandonedCartFilledMajor.svelte';
 	import AbandonedCartMajor from '$lib/AbandonedCartMajor.svelte';
-	import Accessibility from '$lib/Accessibility.svelte';
+	import AccessibilityMajor from '$lib/AccessibilityMajor.svelte';
+	import ActivitiesMajor from '$lib/ActivitiesMajor.svelte';
+	import AddCodeMajor from '$lib/AddCodeMajor.svelte';
+	import AddImageMajor from '$lib/AddImageMajor.svelte';
 
 	const majorIcons = [
 		{
@@ -13,8 +16,20 @@
 			name: 'Abandoned cart'
 		},
 		{
-			icon: Accessibility,
+			icon: AccessibilityMajor,
 			name: 'Accessibility'
+		},
+		{
+			icon: ActivitiesMajor,
+			name: 'Activities'
+		},
+		{
+			icon: AddCodeMajor,
+			name: 'Add code'
+		},
+		{
+			icon: AddImageMajor,
+			name: 'Add image'
 		}
 	];
 </script>
@@ -28,7 +43,7 @@
 	<h2 class="text-xl text-slate-800 mb-4">Major icons</h2>
 
 	<div
-		class="lg:gap-x-8 lg:grid-cols-4 mb-16 sm:gap-x-6 sm:gap-y-8 sm:grid sm:grid-cols-2 sm:space-y-0 space-y-12"
+		class="lg:gap-x-8 lg:grid-cols-5 mb-8 sm:gap-x-6 sm:gap-y-8 sm:grid sm:grid-cols-2 sm:space-y-0 space-y-4"
 	>
 		{#each majorIcons as i}
 			<div
@@ -39,4 +54,5 @@
 			</div>
 		{/each}
 	</div>
+	<h2 class="text-xl text-slate-800 mb-4">Minor icons</h2>
 </div>
