@@ -1,4 +1,4 @@
-# Svelte Shopify Polaris Icons
+# [WIP] Svelte Shopify Polaris Icons
 
 Inspired by [Flowbite Svelte Icons](https://github.com/themesberg/flowbite-svelte-icons).
 
