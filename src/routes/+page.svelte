@@ -37,7 +37,7 @@
 <div class="relative max-w-7xl mx-auto px-4 sm:px-6 mt-20 prose">
 	<h1>Welcome to your Svelte Shopify Polaris Icons</h1>
 	<p class="text-slate-600 mb-2 text-md">Installation</p>
-	<pre class="mt-0">pnpm i -D @candidosales/svelte-shopify-polaris-icons</pre>
+	<pre class="mt-0">pnpm i -D svelte-shopify-polaris-icons</pre>
 
 	<h2>Major icons</h2>
 
