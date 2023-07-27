@@ -7,9 +7,9 @@
 <MetaTags
 	title="Svelte Shopify Polaris Icons"
 	description="Svelte Shopify Polaris Icons"
-	canonical="https://svelte-shopify-polaris-icons.vercel.app/"
+	canonical="https://svelte-shopify-polaris-icons.vercel.app"
 	openGraph={{
-		url: 'https://svelte-shopify-polaris-icons.vercel.app/',
+		url: 'https://svelte-shopify-polaris-icons.vercel.app',
 		title: 'Svelte Shopify Polaris Icons',
 		description: 'Svelte Shopify Polaris Icons',
 		images: [
