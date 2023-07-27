@@ -1,6 +1,6 @@
 {
 	"name": "svelte-shopify-polaris-icons",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "Svelte Shopify Polaris Icons",
 	"author": {
 		"name": "Candido Sales Gomes",
@@ -22,7 +22,7 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"write-package-json": "node ./scripts/package-json-writer.js",
 		"add-exports": "node ./scripts/add-exports-to-package-json.js",
-		"package:publish": "standard-version && git push --follow-tags origin main && npm run package && npm run add-exports && npm run write-package-json && npm publish"
+		"package:publish": "standard-version && git push --follow-tags origin main && npm run package && npm run add-exports && npm run write-package-json"
 	},
 	"files": [
 		"dist",
