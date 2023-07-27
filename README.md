@@ -1,5 +1,7 @@
 # Svelte Shopify Polaris Icons
 
+Inspired by [Flowbite Svelte Icons](https://github.com/themesberg/flowbite-svelte-icons).
+
 ## Installing
 
 If you're seeing this, you've probably already done this step. Congrats!
