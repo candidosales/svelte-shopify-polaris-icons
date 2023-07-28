@@ -51,6 +51,12 @@
 		</h5>
 		<CloseButton on:click={() => (hiddenDrawer = true)} class="mb-4 dark:text-white" />
 	</div>
-	<p class="text-sm text-slate-600">Import the icon from svelte-shopify-polaris-icons:</p>
+	<p class="text-sm text-slate-600">
+		Import the icon from <a
+			class="underline underline-offset-4 after:content-['_↗']"
+			href="https://github.com/candidosales/svelte-shopify-polaris-icons"
+			target="_blank">svelte-shopify-polaris-icons</a
+		>:
+	</p>
 	<pre>{templateImport}</pre>
 </Drawer>

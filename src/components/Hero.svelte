@@ -17,7 +17,8 @@
 <div class="mt-4 mb-8 flex justify-center gap-8 lg:justify-start">
 	<a
 		class="rounded-lg text-slate-900 font-semibold transition flex items-center gap-3 text-[0.8125rem] leading-6 py-1 px-1.5 hover:bg-slate-900/[0.03] -my-1 -mx-1.5 no-underline"
-		href="https://github.com/tailwindlabs/heroicons"
+		href="https://github.com/candidosales/svelte-shopify-polaris-icons"
+		target="_blank"
 		><svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-slate-900"
 			><path
 				fill-rule="evenodd"
