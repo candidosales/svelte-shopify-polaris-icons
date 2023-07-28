@@ -2374,6 +2374,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@floating-ui/dom": "^1.4.5",
+    "flowbite": "^1.7.0",
+    "flowbite-svelte": "^0.40.2",
     "svelte-meta-tags": "^2.8.0"
   }
 }
