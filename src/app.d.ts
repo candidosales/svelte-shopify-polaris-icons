@@ -7,6 +7,7 @@ declare namespace App {
 	interface Icon {
 		icon: SvelteComponentTyped;
 		name: string;
+		iconNameImport: string;
 	}
 	// interface Error {}
 	// interface Locals {}

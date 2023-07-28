@@ -577,2868 +577,3441 @@ import {
 export const MAJOR_ICONS: App.Icon[] = [
 	{
 		icon: AbandonedCartFilledMajor,
-		name: 'Abandoned cart filled'
+		name: 'Abandoned cart filled',
+		iconNameImport: 'AbandonedCartFilledMajor'
 	},
 
 	{
 		icon: AbandonedCartMajor,
-		name: 'Abandoned cart'
+		name: 'Abandoned cart',
+		iconNameImport: 'AbandonedCartMajor'
 	},
 
 	{
 		icon: AccessibilityMajor,
-		name: 'Accessibility'
+		name: 'Accessibility',
+		iconNameImport: 'AccessibilityMajor'
 	},
 
 	{
 		icon: ActivitiesMajor,
-		name: 'Activities'
+		name: 'Activities',
+		iconNameImport: 'ActivitiesMajor'
 	},
 
 	{
 		icon: AddCodeMajor,
-		name: 'Add code'
+		name: 'Add code',
+		iconNameImport: 'AddCodeMajor'
 	},
 
 	{
 		icon: AddImageMajor,
-		name: 'Add image'
+		name: 'Add image',
+		iconNameImport: 'AddImageMajor'
 	},
 
 	{
 		icon: AddMajor,
-		name: 'Add'
+		name: 'Add',
+		iconNameImport: 'AddMajor'
 	},
 
 	{
 		icon: AddNoteMajor,
-		name: 'Add note'
+		name: 'Add note',
+		iconNameImport: 'AddNoteMajor'
 	},
 
 	{
 		icon: AddProductMajor,
-		name: 'Add product'
+		name: 'Add product',
+		iconNameImport: 'AddProductMajor'
 	},
 
 	{
 		icon: AffiliateMajor,
-		name: 'Affiliate'
+		name: 'Affiliate',
+		iconNameImport: 'AffiliateMajor'
 	},
 
 	{
 		icon: AnalyticsMajor,
-		name: 'Analytics'
+		name: 'Analytics',
+		iconNameImport: 'AnalyticsMajor'
 	},
 
 	{
 		icon: AppsFilledMajor,
-		name: 'Apps filled'
+		name: 'Apps filled',
+		iconNameImport: 'AppsFilledMajor'
 	},
 
 	{
 		icon: AppsMajor,
-		name: 'Apps'
+		name: 'Apps',
+		iconNameImport: 'AppsMajor'
 	},
 
 	{
 		icon: ArchiveMajor,
-		name: 'Archive'
+		name: 'Archive',
+		iconNameImport: 'ArchiveMajor'
 	},
 
 	{
 		icon: AttachmentFilledMajor,
-		name: 'Attachment filled'
+		name: 'Attachment filled',
+		iconNameImport: 'AttachmentFilledMajor'
 	},
 
 	{
 		icon: AttachmentMajor,
-		name: 'Attachment'
+		name: 'Attachment',
+		iconNameImport: 'AttachmentMajor'
 	},
 
 	{
 		icon: AutomationFilledMajor,
-		name: 'Automation filled'
+		name: 'Automation filled',
+		iconNameImport: 'AutomationFilledMajor'
 	},
 
 	{
 		icon: AutomationMajor,
-		name: 'Automation'
+		name: 'Automation',
+		iconNameImport: 'AutomationMajor'
 	},
 
 	{
 		icon: BackspaceMajor,
-		name: 'Backspace'
+		name: 'Backspace',
+		iconNameImport: 'BackspaceMajor'
 	},
 
 	{
 		icon: BalanceFilledMajor,
-		name: 'Balance filled'
+		name: 'Balance filled',
+		iconNameImport: 'BalanceFilledMajor'
 	},
 
 	{
 		icon: BalanceMajor,
-		name: 'Balance'
+		name: 'Balance',
+		iconNameImport: 'BalanceMajor'
 	},
 
 	{
 		icon: BankFilledMajor,
-		name: 'Bank filled'
+		name: 'Bank filled',
+		iconNameImport: 'BankFilledMajor'
 	},
 
 	{
 		icon: BankMajor,
-		name: 'Bank'
+		name: 'Bank',
+		iconNameImport: 'BankMajor'
 	},
 
 	{
 		icon: BarcodeMajor,
-		name: 'Barcode'
+		name: 'Barcode',
+		iconNameImport: 'BarcodeMajor'
 	},
 
 	{
 		icon: BehaviorFilledMajor,
-		name: 'Behavior filled'
+		name: 'Behavior filled',
+		iconNameImport: 'BehaviorFilledMajor'
 	},
 
 	{
 		icon: BehaviorMajor,
-		name: 'Behavior'
+		name: 'Behavior',
+		iconNameImport: 'BehaviorMajor'
 	},
 
 	{
 		icon: BillingStatementDollarFilledMajor,
-		name: 'Billing statement dollar filled'
+		name: 'Billing statement dollar filled',
+		iconNameImport: 'BillingStatementDollarFilledMajor'
 	},
 
 	{
 		icon: BillingStatementDollarMajor,
-		name: 'Billing statement dollar'
+		name: 'Billing statement dollar',
+		iconNameImport: 'BillingStatementDollarMajor'
 	},
 
 	{
 		icon: BillingStatementEuroFilledMajor,
-		name: 'Billing statement euro filled'
+		name: 'Billing statement euro filled',
+		iconNameImport: 'BillingStatementEuroFilledMajor'
 	},
 
 	{
 		icon: BillingStatementEuroMajor,
-		name: 'Billing statement euro'
+		name: 'Billing statement euro',
+		iconNameImport: 'BillingStatementEuroMajor'
 	},
 
 	{
 		icon: BillingStatementPoundFilledMajor,
-		name: 'Billing statement pound filled'
+		name: 'Billing statement pound filled',
+		iconNameImport: 'BillingStatementPoundFilledMajor'
 	},
 
 	{
 		icon: BillingStatementPoundMajor,
-		name: 'Billing statement pound'
+		name: 'Billing statement pound',
+		iconNameImport: 'BillingStatementPoundMajor'
 	},
 
 	{
 		icon: BillingStatementRupeeFilledMajor,
-		name: 'Billing statement rupee filled'
+		name: 'Billing statement rupee filled',
+		iconNameImport: 'BillingStatementRupeeFilledMajor'
 	},
 
 	{
 		icon: BillingStatementRupeeMajor,
-		name: 'Billing statement rupee'
+		name: 'Billing statement rupee',
+		iconNameImport: 'BillingStatementRupeeMajor'
 	},
 
 	{
 		icon: BillingStatementYenFilledMajor,
-		name: 'Billing statement yen filled'
+		name: 'Billing statement yen filled',
+		iconNameImport: 'BillingStatementYenFilledMajor'
 	},
 
 	{
 		icon: BillingStatementYenMajor,
-		name: 'Billing statement yen'
+		name: 'Billing statement yen',
+		iconNameImport: 'BillingStatementYenMajor'
 	},
 
 	{
 		icon: BlockquoteMajor,
-		name: 'Blockquote'
+		name: 'Blockquote',
+		iconNameImport: 'BlockquoteMajor'
 	},
 
 	{
 		icon: BlogMajor,
-		name: 'Blog'
+		name: 'Blog',
+		iconNameImport: 'BlogMajor'
 	},
 
 	{
 		icon: BoldMajor,
-		name: 'Bold'
+		name: 'Bold',
+		iconNameImport: 'BoldMajor'
 	},
 
 	{
 		icon: BugMajor,
-		name: 'Bug'
+		name: 'Bug',
+		iconNameImport: 'BugMajor'
 	},
 
 	{
 		icon: ButtonCornerPillMajor,
-		name: 'Button corner pill'
+		name: 'Button corner pill',
+		iconNameImport: 'ButtonCornerPillMajor'
 	},
 
 	{
 		icon: ButtonCornerRoundedMajor,
-		name: 'Button corner rounded'
+		name: 'Button corner rounded',
+		iconNameImport: 'ButtonCornerRoundedMajor'
 	},
 
 	{
 		icon: ButtonCornerSquareMajor,
-		name: 'Button corner square'
+		name: 'Button corner square',
+		iconNameImport: 'ButtonCornerSquareMajor'
 	},
 
 	{
 		icon: BuyButtonButtonLayoutMajor,
-		name: 'Buy button button layout'
+		name: 'Buy button button layout',
+		iconNameImport: 'BuyButtonButtonLayoutMajor'
 	},
 
 	{
 		icon: BuyButtonHorizontalLayoutMajor,
-		name: 'Buy button horizontal layout'
+		name: 'Buy button horizontal layout',
+		iconNameImport: 'BuyButtonHorizontalLayoutMajor'
 	},
 
 	{
 		icon: BuyButtonMajor,
-		name: 'Buy button'
+		name: 'Buy button',
+		iconNameImport: 'BuyButtonMajor'
 	},
 
 	{
 		icon: BuyButtonVerticalLayoutMajor,
-		name: 'Buy button vertical layout'
+		name: 'Buy button vertical layout',
+		iconNameImport: 'BuyButtonVerticalLayoutMajor'
 	},
 
 	{
 		icon: CalendarMajor,
-		name: 'Calendar'
+		name: 'Calendar',
+		iconNameImport: 'CalendarMajor'
 	},
 
 	{
 		icon: CalendarTickMajor,
-		name: 'Calendar tick'
+		name: 'Calendar tick',
+		iconNameImport: 'CalendarTickMajor'
 	},
 
 	{
 		icon: CameraMajor,
-		name: 'Camera'
+		name: 'Camera',
+		iconNameImport: 'CameraMajor'
 	},
 
 	{
 		icon: CancelMajor,
-		name: 'Cancel'
+		name: 'Cancel',
+		iconNameImport: 'CancelMajor'
 	},
 
 	{
 		icon: CapitalFilledMajor,
-		name: 'Capital filled'
+		name: 'Capital filled',
+		iconNameImport: 'CapitalFilledMajor'
 	},
 
 	{
 		icon: CapitalMajor,
-		name: 'Capital'
+		name: 'Capital',
+		iconNameImport: 'CapitalMajor'
 	},
 
 	{
 		icon: CardReaderChipMajor,
-		name: 'Card reader chip'
+		name: 'Card reader chip',
+		iconNameImport: 'CardReaderChipMajor'
 	},
 
 	{
 		icon: CardReaderMajor,
-		name: 'Card reader'
+		name: 'Card reader',
+		iconNameImport: 'CardReaderMajor'
 	},
 
 	{
 		icon: CardReaderTapMajor,
-		name: 'Card reader tap'
+		name: 'Card reader tap',
+		iconNameImport: 'CardReaderTapMajor'
 	},
 
 	{
 		icon: CartDownFilledMajor,
-		name: 'Cart down filled'
+		name: 'Cart down filled',
+		iconNameImport: 'CartDownFilledMajor'
 	},
 
 	{
 		icon: CartDownMajor,
-		name: 'Cart down'
+		name: 'Cart down',
+		iconNameImport: 'CartDownMajor'
 	},
 
 	{
 		icon: CartFilledMajor,
-		name: 'Cart filled'
+		name: 'Cart filled',
+		iconNameImport: 'CartFilledMajor'
 	},
 
 	{
 		icon: CartMajor,
-		name: 'Cart'
+		name: 'Cart',
+		iconNameImport: 'CartMajor'
 	},
 
 	{
 		icon: CartUpMajor,
-		name: 'Cart up'
+		name: 'Cart up',
+		iconNameImport: 'CartUpMajor'
 	},
 
 	{
 		icon: CashDollarFilledMajor,
-		name: 'Cash dollar filled'
+		name: 'Cash dollar filled',
+		iconNameImport: 'CashDollarFilledMajor'
 	},
 
 	{
 		icon: CashDollarMajor,
-		name: 'Cash dollar'
+		name: 'Cash dollar',
+		iconNameImport: 'CashDollarMajor'
 	},
 
 	{
 		icon: CashEuroMajor,
-		name: 'Cash euro'
+		name: 'Cash euro',
+		iconNameImport: 'CashEuroMajor'
 	},
 
 	{
 		icon: CashPoundMajor,
-		name: 'Cash pound'
+		name: 'Cash pound',
+		iconNameImport: 'CashPoundMajor'
 	},
 
 	{
 		icon: CashRupeeMajor,
-		name: 'Cash rupee'
+		name: 'Cash rupee',
+		iconNameImport: 'CashRupeeMajor'
 	},
 
 	{
 		icon: CashYenMajor,
-		name: 'Cash yen'
+		name: 'Cash yen',
+		iconNameImport: 'CashYenMajor'
 	},
 
 	{
 		icon: CategoriesMajor,
-		name: 'Categories'
+		name: 'Categories',
+		iconNameImport: 'CategoriesMajor'
 	},
 
 	{
 		icon: ChannelsMajor,
-		name: 'Channels'
+		name: 'Channels',
+		iconNameImport: 'ChannelsMajor'
 	},
 
 	{
 		icon: ChatMajor,
-		name: 'Chat'
+		name: 'Chat',
+		iconNameImport: 'ChatMajor'
 	},
 
 	{
 		icon: ChecklistAlternateMajor,
-		name: 'Checklist alternate'
+		name: 'Checklist alternate',
+		iconNameImport: 'ChecklistAlternateMajor'
 	},
 
 	{
 		icon: ChecklistMajor,
-		name: 'Checklist'
+		name: 'Checklist',
+		iconNameImport: 'ChecklistMajor'
 	},
 
 	{
 		icon: CheckoutMajor,
-		name: 'Checkout'
+		name: 'Checkout',
+		iconNameImport: 'CheckoutMajor'
 	},
 
 	{
 		icon: CircleAlertMajor,
-		name: 'Circle alert'
+		name: 'Circle alert',
+		iconNameImport: 'CircleAlertMajor'
 	},
 
 	{
 		icon: CircleCancelMajor,
-		name: 'Circle cancel'
+		name: 'Circle cancel',
+		iconNameImport: 'CircleCancelMajor'
 	},
 
 	{
 		icon: CircleDisabledMajor,
-		name: 'Circle disabled'
+		name: 'Circle disabled',
+		iconNameImport: 'CircleDisabledMajor'
 	},
 
 	{
 		icon: CircleDotsMajor,
-		name: 'Circle dots'
+		name: 'Circle dots',
+		iconNameImport: 'CircleDotsMajor'
 	},
 
 	{
 		icon: CircleDownMajor,
-		name: 'Circle down'
+		name: 'Circle down',
+		iconNameImport: 'CircleDownMajor'
 	},
 
 	{
 		icon: CircleInformationMajor,
-		name: 'Circle information'
+		name: 'Circle information',
+		iconNameImport: 'CircleInformationMajor'
 	},
 
 	{
 		icon: CircleLeftMajor,
-		name: 'Circle left'
+		name: 'Circle left',
+		iconNameImport: 'CircleLeftMajor'
 	},
 
 	{
 		icon: CircleMinusMajor,
-		name: 'Circle minus'
+		name: 'Circle minus',
+		iconNameImport: 'CircleMinusMajor'
 	},
 
 	{
 		icon: CirclePlusMajor,
-		name: 'Circle plus'
+		name: 'Circle plus',
+		iconNameImport: 'CirclePlusMajor'
 	},
 
 	{
 		icon: CircleRightMajor,
-		name: 'Circle right'
+		name: 'Circle right',
+		iconNameImport: 'CircleRightMajor'
 	},
 
 	{
 		icon: CircleTickMajor,
-		name: 'Circle tick'
+		name: 'Circle tick',
+		iconNameImport: 'CircleTickMajor'
 	},
 
 	{
 		icon: CircleUpMajor,
-		name: 'Circle up'
+		name: 'Circle up',
+		iconNameImport: 'CircleUpMajor'
 	},
 
 	{
 		icon: ClockMajor,
-		name: 'Clock'
+		name: 'Clock',
+		iconNameImport: 'ClockMajor'
 	},
 
 	{
 		icon: CodeMajor,
-		name: 'Code'
+		name: 'Code',
+		iconNameImport: 'CodeMajor'
 	},
 
 	{
 		icon: CollectionsFilledMajor,
-		name: 'Collections filled'
+		name: 'Collections filled',
+		iconNameImport: 'CollectionsFilledMajor'
 	},
 
 	{
 		icon: CollectionsMajor,
-		name: 'Collections'
+		name: 'Collections',
+		iconNameImport: 'CollectionsMajor'
 	},
 
 	{
 		icon: ColorsMajor,
-		name: 'Colors'
+		name: 'Colors',
+		iconNameImport: 'ColorsMajor'
 	},
 
 	{
 		icon: Column1Major,
-		name: 'Column1'
+		name: 'Column1',
+		iconNameImport: 'Column1Major'
 	},
 
 	{
 		icon: ColumnWithTextMajor,
-		name: 'Column with text'
+		name: 'Column with text',
+		iconNameImport: 'ColumnWithTextMajor'
 	},
 
 	{
 		icon: Columns2Major,
-		name: 'Columns2'
+		name: 'Columns2',
+		iconNameImport: 'Columns2Major'
 	},
 
 	{
 		icon: Columns3Major,
-		name: 'Columns3'
+		name: 'Columns3',
+		iconNameImport: 'Columns3Major'
 	},
 
 	{
 		icon: ComposeMajor,
-		name: 'Compose'
+		name: 'Compose',
+		iconNameImport: 'ComposeMajor'
 	},
 
 	{
 		icon: ConfettiMajor,
-		name: 'Confetti'
+		name: 'Confetti',
+		iconNameImport: 'ConfettiMajor'
 	},
 
 	{
 		icon: CreditCardCancelMajor,
-		name: 'Credit card cancel'
+		name: 'Credit card cancel',
+		iconNameImport: 'CreditCardCancelMajor'
 	},
 
 	{
 		icon: CreditCardMajor,
-		name: 'Credit card'
+		name: 'Credit card',
+		iconNameImport: 'CreditCardMajor'
 	},
 
 	{
 		icon: CreditCardPercentMajor,
-		name: 'Credit card percent'
+		name: 'Credit card percent',
+		iconNameImport: 'CreditCardPercentMajor'
 	},
 
 	{
 		icon: CreditCardSecureMajor,
-		name: 'Credit card secure'
+		name: 'Credit card secure',
+		iconNameImport: 'CreditCardSecureMajor'
 	},
 
 	{
 		icon: CustomerMinusMajor,
-		name: 'Customer minus'
+		name: 'Customer minus',
+		iconNameImport: 'CustomerMinusMajor'
 	},
 
 	{
 		icon: CustomerPlusMajor,
-		name: 'Customer plus'
+		name: 'Customer plus',
+		iconNameImport: 'CustomerPlusMajor'
 	},
 
 	{
 		icon: CustomersMajor,
-		name: 'Customers'
+		name: 'Customers',
+		iconNameImport: 'CustomersMajor'
 	},
 
 	{
 		icon: DataVisualizationMajor,
-		name: 'Data visualization'
+		name: 'Data visualization',
+		iconNameImport: 'DataVisualizationMajor'
 	},
 
 	{
 		icon: DeleteMajor,
-		name: 'Delete'
+		name: 'Delete',
+		iconNameImport: 'DeleteMajor'
 	},
 
 	{
 		icon: DesktopMajor,
-		name: 'Desktop'
+		name: 'Desktop',
+		iconNameImport: 'DesktopMajor'
 	},
 
 	{
 		icon: DetailedPopUpMajor,
-		name: 'Detailed pop up'
+		name: 'Detailed pop up',
+		iconNameImport: 'DetailedPopUpMajor'
 	},
 
 	{
 		icon: DiamondAlertMajor,
-		name: 'Diamond alert'
+		name: 'Diamond alert',
+		iconNameImport: 'DiamondAlertMajor'
 	},
 
 	{
 		icon: DigitalMediaReceiverMajor,
-		name: 'Digital media receiver'
+		name: 'Digital media receiver',
+		iconNameImport: 'DigitalMediaReceiverMajor'
 	},
 
 	{
 		icon: DiscountAutomaticMajor,
-		name: 'Discount automatic'
+		name: 'Discount automatic',
+		iconNameImport: 'DiscountAutomaticMajor'
 	},
 
 	{
 		icon: DiscountCodeMajor,
-		name: 'Discount code'
+		name: 'Discount code',
+		iconNameImport: 'DiscountCodeMajor'
 	},
 
 	{
 		icon: DiscountsMajor,
-		name: 'Discounts'
+		name: 'Discounts',
+		iconNameImport: 'DiscountsMajor'
 	},
 
 	{
 		icon: DnsSettingsMajor,
-		name: 'Dns settings'
+		name: 'Dns settings',
+		iconNameImport: 'DnsSettingsMajor'
 	},
 
 	{
 		icon: DockFloatingMajor,
-		name: 'Dock floating'
+		name: 'Dock floating',
+		iconNameImport: 'DockFloatingMajor'
 	},
 
 	{
 		icon: DockSideMajor,
-		name: 'Dock side'
+		name: 'Dock side',
+		iconNameImport: 'DockSideMajor'
 	},
 
 	{
 		icon: DomainNewMajor,
-		name: 'Domain new'
+		name: 'Domain new',
+		iconNameImport: 'DomainNewMajor'
 	},
 
 	{
 		icon: DomainsFilledMajor,
-		name: 'Domains filled'
+		name: 'Domains filled',
+		iconNameImport: 'DomainsFilledMajor'
 	},
 
 	{
 		icon: DomainsMajor,
-		name: 'Domains'
+		name: 'Domains',
+		iconNameImport: 'DomainsMajor'
 	},
 
 	{
 		icon: DraftOrdersFilledMajor,
-		name: 'Draft orders filled'
+		name: 'Draft orders filled',
+		iconNameImport: 'DraftOrdersFilledMajor'
 	},
 
 	{
 		icon: DraftOrdersMajor,
-		name: 'Draft orders'
+		name: 'Draft orders',
+		iconNameImport: 'DraftOrdersMajor'
 	},
 
 	{
 		icon: DragDropMajor,
-		name: 'Drag drop'
+		name: 'Drag drop',
+		iconNameImport: 'DragDropMajor'
 	},
 
 	{
 		icon: DynamicSourceMajor,
-		name: 'Dynamic source'
+		name: 'Dynamic source',
+		iconNameImport: 'DynamicSourceMajor'
 	},
 
 	{
 		icon: EditMajor,
-		name: 'Edit'
+		name: 'Edit',
+		iconNameImport: 'EditMajor'
 	},
 
 	{
 		icon: EmailMajor,
-		name: 'Email'
+		name: 'Email',
+		iconNameImport: 'EmailMajor'
 	},
 
 	{
 		icon: EmailNewsletterMajor,
-		name: 'Email newsletter'
+		name: 'Email newsletter',
+		iconNameImport: 'EmailNewsletterMajor'
 	},
 
 	{
 		icon: EnterMajor,
-		name: 'Enter'
+		name: 'Enter',
+		iconNameImport: 'EnterMajor'
 	},
 
 	{
 		icon: EnvelopeMajor,
-		name: 'Envelope'
+		name: 'Envelope',
+		iconNameImport: 'EnvelopeMajor'
 	},
 
 	{
 		icon: ExchangeMajor,
-		name: 'Exchange'
+		name: 'Exchange',
+		iconNameImport: 'ExchangeMajor'
 	},
 
 	{
 		icon: ExistingInventoryMajor,
-		name: 'Existing inventory'
+		name: 'Existing inventory',
+		iconNameImport: 'ExistingInventoryMajor'
 	},
 
 	{
 		icon: ExitMajor,
-		name: 'Exit'
+		name: 'Exit',
+		iconNameImport: 'ExitMajor'
 	},
 
 	{
 		icon: ExploreImagesMajor,
-		name: 'Explore images'
+		name: 'Explore images',
+		iconNameImport: 'ExploreImagesMajor'
 	},
 
 	{
 		icon: ExtendMajor,
-		name: 'Extend'
+		name: 'Extend',
+		iconNameImport: 'ExtendMajor'
 	},
 
 	{
 		icon: FaviconMajor,
-		name: 'Favicon'
+		name: 'Favicon',
+		iconNameImport: 'FaviconMajor'
 	},
 
 	{
 		icon: FavoriteMajor,
-		name: 'Favorite'
+		name: 'Favorite',
+		iconNameImport: 'FavoriteMajor'
 	},
 
 	{
 		icon: FeaturedCollectionMajor,
-		name: 'Featured collection'
+		name: 'Featured collection',
+		iconNameImport: 'FeaturedCollectionMajor'
 	},
 
 	{
 		icon: FeaturedContentMajor,
-		name: 'Featured content'
+		name: 'Featured content',
+		iconNameImport: 'FeaturedContentMajor'
 	},
 
 	{
 		icon: FilterMajor,
-		name: 'Filter'
+		name: 'Filter',
+		iconNameImport: 'FilterMajor'
 	},
 
 	{
 		icon: FinancesMajor,
-		name: 'Finances'
+		name: 'Finances',
+		iconNameImport: 'FinancesMajor'
 	},
 
 	{
 		icon: FirstOrderMajor,
-		name: 'First order'
+		name: 'First order',
+		iconNameImport: 'FirstOrderMajor'
 	},
 
 	{
 		icon: FirstVisitMajor,
-		name: 'First visit'
+		name: 'First visit',
+		iconNameImport: 'FirstVisitMajor'
 	},
 
 	{
 		icon: FlagMajor,
-		name: 'Flag'
+		name: 'Flag',
+		iconNameImport: 'FlagMajor'
 	},
 
 	{
 		icon: FlipCameraMajor,
-		name: 'Flip camera'
+		name: 'Flip camera',
+		iconNameImport: 'FlipCameraMajor'
 	},
 
 	{
 		icon: FolderDownMajor,
-		name: 'Folder down'
+		name: 'Folder down',
+		iconNameImport: 'FolderDownMajor'
 	},
 
 	{
 		icon: FolderMajor,
-		name: 'Folder'
+		name: 'Folder',
+		iconNameImport: 'FolderMajor'
 	},
 
 	{
 		icon: FolderMinusMajor,
-		name: 'Folder minus'
+		name: 'Folder minus',
+		iconNameImport: 'FolderMinusMajor'
 	},
 
 	{
 		icon: FolderPlusMajor,
-		name: 'Folder plus'
+		name: 'Folder plus',
+		iconNameImport: 'FolderPlusMajor'
 	},
 
 	{
 		icon: FolderUpMajor,
-		name: 'Folder up'
+		name: 'Folder up',
+		iconNameImport: 'FolderUpMajor'
 	},
 
 	{
 		icon: FollowUpEmailMajor,
-		name: 'Follow up email'
+		name: 'Follow up email',
+		iconNameImport: 'FollowUpEmailMajor'
 	},
 
 	{
 		icon: FoodMajor,
-		name: 'Food'
+		name: 'Food',
+		iconNameImport: 'FoodMajor'
 	},
 
 	{
 		icon: FooterMajor,
-		name: 'Footer'
+		name: 'Footer',
+		iconNameImport: 'FooterMajor'
 	},
 
 	{
 		icon: FormsMajor,
-		name: 'Forms'
+		name: 'Forms',
+		iconNameImport: 'FormsMajor'
 	},
 
 	{
 		icon: FraudProtectMajor,
-		name: 'Fraud protect'
+		name: 'Fraud protect',
+		iconNameImport: 'FraudProtectMajor'
 	},
 
 	{
 		icon: FraudProtectPendingMajor,
-		name: 'Fraud protect pending'
+		name: 'Fraud protect pending',
+		iconNameImport: 'FraudProtectPendingMajor'
 	},
 
 	{
 		icon: FraudProtectUnprotectedMajor,
-		name: 'Fraud protect unprotected'
+		name: 'Fraud protect unprotected',
+		iconNameImport: 'FraudProtectUnprotectedMajor'
 	},
 
 	{
 		icon: FulfillmentFulfilledMajor,
-		name: 'Fulfillment fulfilled'
+		name: 'Fulfillment fulfilled',
+		iconNameImport: 'FulfillmentFulfilledMajor'
 	},
 
 	{
 		icon: FulfillmentOnHoldMajor,
-		name: 'Fulfillment on hold'
+		name: 'Fulfillment on hold',
+		iconNameImport: 'FulfillmentOnHoldMajor'
 	},
 
 	{
 		icon: GamesConsoleMajor,
-		name: 'Games console'
+		name: 'Games console',
+		iconNameImport: 'GamesConsoleMajor'
 	},
 
 	{
 		icon: GaugeMajor,
-		name: 'Gauge'
+		name: 'Gauge',
+		iconNameImport: 'GaugeMajor'
 	},
 
 	{
 		icon: GiftCardMajor,
-		name: 'Gift card'
+		name: 'Gift card',
+		iconNameImport: 'GiftCardMajor'
 	},
 
 	{
 		icon: GlobeMajor,
-		name: 'Globe'
+		name: 'Globe',
+		iconNameImport: 'GlobeMajor'
 	},
 
 	{
 		icon: GrammarMajor,
-		name: 'Grammar'
+		name: 'Grammar',
+		iconNameImport: 'GrammarMajor'
 	},
 
 	{
 		icon: HashtagMajor,
-		name: 'Hashtag'
+		name: 'Hashtag',
+		iconNameImport: 'HashtagMajor'
 	},
 
 	{
 		icon: HeaderMajor,
-		name: 'Header'
+		name: 'Header',
+		iconNameImport: 'HeaderMajor'
 	},
 
 	{
 		icon: HeartMajor,
-		name: 'Heart'
+		name: 'Heart',
+		iconNameImport: 'HeartMajor'
 	},
 
 	{
 		icon: HideKeyboardMajor,
-		name: 'Hide keyboard'
+		name: 'Hide keyboard',
+		iconNameImport: 'HideKeyboardMajor'
 	},
 
 	{
 		icon: HintMajor,
-		name: 'Hint'
+		name: 'Hint',
+		iconNameImport: 'HintMajor'
 	},
 
 	{
 		icon: HomeMajor,
-		name: 'Home'
+		name: 'Home',
+		iconNameImport: 'HomeMajor'
 	},
 
 	{
 		icon: IconsFilledMajor,
-		name: 'Icons filled'
+		name: 'Icons filled',
+		iconNameImport: 'IconsFilledMajor'
 	},
 
 	{
 		icon: IconsMajor,
-		name: 'Icons'
+		name: 'Icons',
+		iconNameImport: 'IconsMajor'
 	},
 
 	{
 		icon: IdentityCardFilledMajor,
-		name: 'Identity card filled'
+		name: 'Identity card filled',
+		iconNameImport: 'IdentityCardFilledMajor'
 	},
 
 	{
 		icon: IdentityCardMajor,
-		name: 'Identity card'
+		name: 'Identity card',
+		iconNameImport: 'IdentityCardMajor'
 	},
 
 	{
 		icon: IllustrationMajor,
-		name: 'Illustration'
+		name: 'Illustration',
+		iconNameImport: 'IllustrationMajor'
 	},
 
 	{
 		icon: ImageAltMajor,
-		name: 'Image alt'
+		name: 'Image alt',
+		iconNameImport: 'ImageAltMajor'
 	},
 
 	{
 		icon: ImageMajor,
-		name: 'Image'
+		name: 'Image',
+		iconNameImport: 'ImageMajor'
 	},
 
 	{
 		icon: ImageWithTextMajor,
-		name: 'Image with text'
+		name: 'Image with text',
+		iconNameImport: 'ImageWithTextMajor'
 	},
 
 	{
 		icon: ImageWithTextOverlayMajor,
-		name: 'Image with text overlay'
+		name: 'Image with text overlay',
+		iconNameImport: 'ImageWithTextOverlayMajor'
 	},
 
 	{
 		icon: ImagesMajor,
-		name: 'Images'
+		name: 'Images',
+		iconNameImport: 'ImagesMajor'
 	},
 
 	{
 		icon: ImportStoreMajor,
-		name: 'Import store'
+		name: 'Import store',
+		iconNameImport: 'ImportStoreMajor'
 	},
 
 	{
 		icon: InactiveLocationMajor,
-		name: 'Inactive location'
+		name: 'Inactive location',
+		iconNameImport: 'InactiveLocationMajor'
 	},
 
 	{
 		icon: IncomingMajor,
-		name: 'Incoming'
+		name: 'Incoming',
+		iconNameImport: 'IncomingMajor'
 	},
 
 	{
 		icon: IndentMajor,
-		name: 'Indent'
+		name: 'Indent',
+		iconNameImport: 'IndentMajor'
 	},
 
 	{
 		icon: InsertDynamicSourceMajor,
-		name: 'Insert dynamic source'
+		name: 'Insert dynamic source',
+		iconNameImport: 'InsertDynamicSourceMajor'
 	},
 
 	{
 		icon: InventoryFilledMajor,
-		name: 'Inventory filled'
+		name: 'Inventory filled',
+		iconNameImport: 'InventoryFilledMajor'
 	},
 
 	{
 		icon: InventoryMajor,
-		name: 'Inventory'
+		name: 'Inventory',
+		iconNameImport: 'InventoryMajor'
 	},
 
 	{
 		icon: IqMajor,
-		name: 'Iq'
+		name: 'Iq',
+		iconNameImport: 'IqMajor'
 	},
 
 	{
 		icon: ItalicMajor,
-		name: 'Italic'
+		name: 'Italic',
+		iconNameImport: 'ItalicMajor'
 	},
 
 	{
 		icon: JobsFilledMajor,
-		name: 'Jobs filled'
+		name: 'Jobs filled',
+		iconNameImport: 'JobsFilledMajor'
 	},
 
 	{
 		icon: JobsMajor,
-		name: 'Jobs'
+		name: 'Jobs',
+		iconNameImport: 'JobsMajor'
 	},
 
 	{
 		icon: KeyMajor,
-		name: 'Key'
+		name: 'Key',
+		iconNameImport: 'KeyMajor'
 	},
 
 	{
 		icon: KeyboardMajor,
-		name: 'Keyboard'
+		name: 'Keyboard',
+		iconNameImport: 'KeyboardMajor'
 	},
 
 	{
 		icon: LabelPrinterMajor,
-		name: 'Label printer'
+		name: 'Label printer',
+		iconNameImport: 'LabelPrinterMajor'
 	},
 
 	{
 		icon: LandingPageMajor,
-		name: 'Landing page'
+		name: 'Landing page',
+		iconNameImport: 'LandingPageMajor'
 	},
 
 	{
 		icon: LegalFilledMajor,
-		name: 'Legal filled'
+		name: 'Legal filled',
+		iconNameImport: 'LegalFilledMajor'
 	},
 
 	{
 		icon: LegalMajor,
-		name: 'Legal'
+		name: 'Legal',
+		iconNameImport: 'LegalMajor'
 	},
 
 	{
 		icon: ListFilledMajor,
-		name: 'List filled'
+		name: 'List filled',
+		iconNameImport: 'ListFilledMajor'
 	},
 
 	{
 		icon: ListMajor,
-		name: 'List'
+		name: 'List',
+		iconNameImport: 'ListMajor'
 	},
 
 	{
 		icon: LiveViewFilledMajor,
-		name: 'Live view filled'
+		name: 'Live view filled',
+		iconNameImport: 'LiveViewFilledMajor'
 	},
 
 	{
 		icon: LiveViewMajor,
-		name: 'Live view'
+		name: 'Live view',
+		iconNameImport: 'LiveViewMajor'
 	},
 
 	{
 		icon: LocationFilledMajor,
-		name: 'Location filled'
+		name: 'Location filled',
+		iconNameImport: 'LocationFilledMajor'
 	},
 
 	{
 		icon: LocationMajor,
-		name: 'Location'
+		name: 'Location',
+		iconNameImport: 'LocationMajor'
 	},
 
 	{
 		icon: LockFilledMajor,
-		name: 'Lock filled'
+		name: 'Lock filled',
+		iconNameImport: 'LockFilledMajor'
 	},
 
 	{
 		icon: LockMajor,
-		name: 'Lock'
+		name: 'Lock',
+		iconNameImport: 'LockMajor'
 	},
 
 	{
 		icon: LogoBlockMajor,
-		name: 'Logo block'
+		name: 'Logo block',
+		iconNameImport: 'LogoBlockMajor'
 	},
 
 	{
 		icon: MagicMajor,
-		name: 'Magic'
+		name: 'Magic',
+		iconNameImport: 'MagicMajor'
 	},
 
 	{
 		icon: ManagedStoreMajor,
-		name: 'Managed store'
+		name: 'Managed store',
+		iconNameImport: 'ManagedStoreMajor'
 	},
 
 	{
 		icon: MarketingMajor,
-		name: 'Marketing'
+		name: 'Marketing',
+		iconNameImport: 'MarketingMajor'
 	},
 
 	{
 		icon: MarketsFilledMajor,
-		name: 'Markets filled'
+		name: 'Markets filled',
+		iconNameImport: 'MarketsFilledMajor'
 	},
 
 	{
 		icon: MarketsMajor,
-		name: 'Markets'
+		name: 'Markets',
+		iconNameImport: 'MarketsMajor'
 	},
 
 	{
 		icon: MaximizeMajor,
-		name: 'Maximize'
+		name: 'Maximize',
+		iconNameImport: 'MaximizeMajor'
 	},
 
 	{
 		icon: MentionMajor,
-		name: 'Mention'
+		name: 'Mention',
+		iconNameImport: 'MentionMajor'
 	},
 
 	{
 		icon: MetafieldsMajor,
-		name: 'Metafields'
+		name: 'Metafields',
+		iconNameImport: 'MetafieldsMajor'
 	},
 
 	{
 		icon: MicrophoneMajor,
-		name: 'Microphone'
+		name: 'Microphone',
+		iconNameImport: 'MicrophoneMajor'
 	},
 
 	{
 		icon: MinimizeMajor,
-		name: 'Minimize'
+		name: 'Minimize',
+		iconNameImport: 'MinimizeMajor'
 	},
 
 	{
 		icon: MinusMajor,
-		name: 'Minus'
+		name: 'Minus',
+		iconNameImport: 'MinusMajor'
 	},
 
 	{
 		icon: MobileAcceptMajor,
-		name: 'Mobile accept'
+		name: 'Mobile accept',
+		iconNameImport: 'MobileAcceptMajor'
 	},
 
 	{
 		icon: MobileBackArrowMajor,
-		name: 'Mobile back arrow'
+		name: 'Mobile back arrow',
+		iconNameImport: 'MobileBackArrowMajor'
 	},
 
 	{
 		icon: MobileCancelMajor,
-		name: 'Mobile cancel'
+		name: 'Mobile cancel',
+		iconNameImport: 'MobileCancelMajor'
 	},
 
 	{
 		icon: MobileChevronMajor,
-		name: 'Mobile chevron'
+		name: 'Mobile chevron',
+		iconNameImport: 'MobileChevronMajor'
 	},
 
 	{
 		icon: MobileHamburgerMajor,
-		name: 'Mobile hamburger'
+		name: 'Mobile hamburger',
+		iconNameImport: 'MobileHamburgerMajor'
 	},
 
 	{
 		icon: MobileHorizontalDotsMajor,
-		name: 'Mobile horizontal dots'
+		name: 'Mobile horizontal dots',
+		iconNameImport: 'MobileHorizontalDotsMajor'
 	},
 
 	{
 		icon: MobileMajor,
-		name: 'Mobile'
+		name: 'Mobile',
+		iconNameImport: 'MobileMajor'
 	},
 
 	{
 		icon: MobilePlusMajor,
-		name: 'Mobile plus'
+		name: 'Mobile plus',
+		iconNameImport: 'MobilePlusMajor'
 	},
 
 	{
 		icon: MobileVerticalDotsMajor,
-		name: 'Mobile vertical dots'
+		name: 'Mobile vertical dots',
+		iconNameImport: 'MobileVerticalDotsMajor'
 	},
 
 	{
 		icon: MonerisMajor,
-		name: 'Moneris'
+		name: 'Moneris',
+		iconNameImport: 'MonerisMajor'
 	},
 
 	{
 		icon: NatureMajor,
-		name: 'Nature'
+		name: 'Nature',
+		iconNameImport: 'NatureMajor'
 	},
 
 	{
 		icon: NavigationMajor,
-		name: 'Navigation'
+		name: 'Navigation',
+		iconNameImport: 'NavigationMajor'
 	},
 
 	{
 		icon: NoteMajor,
-		name: 'Note'
+		name: 'Note',
+		iconNameImport: 'NoteMajor'
 	},
 
 	{
 		icon: NotificationFilledMajor,
-		name: 'Notification filled'
+		name: 'Notification filled',
+		iconNameImport: 'NotificationFilledMajor'
 	},
 
 	{
 		icon: NotificationMajor,
-		name: 'Notification'
+		name: 'Notification',
+		iconNameImport: 'NotificationMajor'
 	},
 
 	{
 		icon: OnlineStoreMajor,
-		name: 'Online store'
+		name: 'Online store',
+		iconNameImport: 'OnlineStoreMajor'
 	},
 
 	{
 		icon: OrderedListMajor,
-		name: 'Ordered list'
+		name: 'Ordered list',
+		iconNameImport: 'OrderedListMajor'
 	},
 
 	{
 		icon: OrdersMajor,
-		name: 'Orders'
+		name: 'Orders',
+		iconNameImport: 'OrdersMajor'
 	},
 
 	{
 		icon: OrganizationMajor,
-		name: 'Organization'
+		name: 'Organization',
+		iconNameImport: 'OrganizationMajor'
 	},
 
 	{
 		icon: OutdentMajor,
-		name: 'Outdent'
+		name: 'Outdent',
+		iconNameImport: 'OutdentMajor'
 	},
 
 	{
 		icon: OutgoingMajor,
-		name: 'Outgoing'
+		name: 'Outgoing',
+		iconNameImport: 'OutgoingMajor'
 	},
 
 	{
 		icon: PackageFilledMajor,
-		name: 'Package filled'
+		name: 'Package filled',
+		iconNameImport: 'PackageFilledMajor'
 	},
 
 	{
 		icon: PackageMajor,
-		name: 'Package'
+		name: 'Package',
+		iconNameImport: 'PackageMajor'
 	},
 
 	{
 		icon: PageDownMajor,
-		name: 'Page down'
+		name: 'Page down',
+		iconNameImport: 'PageDownMajor'
 	},
 
 	{
 		icon: PageMajor,
-		name: 'Page'
+		name: 'Page',
+		iconNameImport: 'PageMajor'
 	},
 
 	{
 		icon: PageMinusMajor,
-		name: 'Page minus'
+		name: 'Page minus',
+		iconNameImport: 'PageMinusMajor'
 	},
 
 	{
 		icon: PagePlusMajor,
-		name: 'Page plus'
+		name: 'Page plus',
+		iconNameImport: 'PagePlusMajor'
 	},
 
 	{
 		icon: PageUpMajor,
-		name: 'Page up'
+		name: 'Page up',
+		iconNameImport: 'PageUpMajor'
 	},
 
 	{
 		icon: PaintBrushMajor,
-		name: 'Paint brush'
+		name: 'Paint brush',
+		iconNameImport: 'PaintBrushMajor'
 	},
 
 	{
 		icon: PaperCheckMajor,
-		name: 'Paper check'
+		name: 'Paper check',
+		iconNameImport: 'PaperCheckMajor'
 	},
 
 	{
 		icon: PasskeyMajor,
-		name: 'Passkey'
+		name: 'Passkey',
+		iconNameImport: 'PasskeyMajor'
 	},
 
 	{
 		icon: PauseCircleMajor,
-		name: 'Pause circle'
+		name: 'Pause circle',
+		iconNameImport: 'PauseCircleMajor'
 	},
 
 	{
 		icon: PauseMajor,
-		name: 'Pause'
+		name: 'Pause',
+		iconNameImport: 'PauseMajor'
 	},
 
 	{
 		icon: PaymentsFilledMajor,
-		name: 'Payments filled'
+		name: 'Payments filled',
+		iconNameImport: 'PaymentsFilledMajor'
 	},
 
 	{
 		icon: PaymentsMajor,
-		name: 'Payments'
+		name: 'Payments',
+		iconNameImport: 'PaymentsMajor'
 	},
 
 	{
 		icon: PersonalizedTextMajor,
-		name: 'Personalized text'
+		name: 'Personalized text',
+		iconNameImport: 'PersonalizedTextMajor'
 	},
 
 	{
 		icon: PhoneInMajor,
-		name: 'Phone in'
+		name: 'Phone in',
+		iconNameImport: 'PhoneInMajor'
 	},
 
 	{
 		icon: PhoneMajor,
-		name: 'Phone'
+		name: 'Phone',
+		iconNameImport: 'PhoneMajor'
 	},
 
 	{
 		icon: PhoneOutMajor,
-		name: 'Phone out'
+		name: 'Phone out',
+		iconNameImport: 'PhoneOutMajor'
 	},
 
 	{
 		icon: PinMajor,
-		name: 'Pin'
+		name: 'Pin',
+		iconNameImport: 'PinMajor'
 	},
 
 	{
 		icon: PinUnfilledMajor,
-		name: 'Pin unfilled'
+		name: 'Pin unfilled',
+		iconNameImport: 'PinUnfilledMajor'
 	},
 
 	{
 		icon: PlanMajor,
-		name: 'Plan'
+		name: 'Plan',
+		iconNameImport: 'PlanMajor'
 	},
 
 	{
 		icon: PlayCircleMajor,
-		name: 'Play circle'
+		name: 'Play circle',
+		iconNameImport: 'PlayCircleMajor'
 	},
 
 	{
 		icon: PlayMajor,
-		name: 'Play'
+		name: 'Play',
+		iconNameImport: 'PlayMajor'
 	},
 
 	{
 		icon: PointOfSaleMajor,
-		name: 'Point of sale'
+		name: 'Point of sale',
+		iconNameImport: 'PointOfSaleMajor'
 	},
 
 	{
 		icon: PopularMajor,
-		name: 'Popular'
+		name: 'Popular',
+		iconNameImport: 'PopularMajor'
 	},
 
 	{
 		icon: PrintMajor,
-		name: 'Print'
+		name: 'Print',
+		iconNameImport: 'PrintMajor'
 	},
 
 	{
 		icon: ProductCostMajor,
-		name: 'Product cost'
+		name: 'Product cost',
+		iconNameImport: 'ProductCostMajor'
 	},
 
 	{
 		icon: ProductsMajor,
-		name: 'Products'
+		name: 'Products',
+		iconNameImport: 'ProductsMajor'
 	},
 
 	{
 		icon: ProfileMajor,
-		name: 'Profile'
+		name: 'Profile',
+		iconNameImport: 'ProfileMajor'
 	},
 
 	{
 		icon: QuestionMarkInverseMajor,
-		name: 'Question mark inverse'
+		name: 'Question mark inverse',
+		iconNameImport: 'QuestionMarkInverseMajor'
 	},
 
 	{
 		icon: QuestionMarkMajor,
-		name: 'Question mark'
+		name: 'Question mark',
+		iconNameImport: 'QuestionMarkMajor'
 	},
 
 	{
 		icon: QuickSaleMajor,
-		name: 'Quick sale'
+		name: 'Quick sale',
+		iconNameImport: 'QuickSaleMajor'
 	},
 
 	{
 		icon: ReceiptMajor,
-		name: 'Receipt'
+		name: 'Receipt',
+		iconNameImport: 'ReceiptMajor'
 	},
 
 	{
 		icon: RecentSearchesMajor,
-		name: 'Recent searches'
+		name: 'Recent searches',
+		iconNameImport: 'RecentSearchesMajor'
 	},
 
 	{
 		icon: RedoMajor,
-		name: 'Redo'
+		name: 'Redo',
+		iconNameImport: 'RedoMajor'
 	},
 
 	{
 		icon: ReferralCodeMajor,
-		name: 'Referral code'
+		name: 'Referral code',
+		iconNameImport: 'ReferralCodeMajor'
 	},
 
 	{
 		icon: ReferralMajor,
-		name: 'Referral'
+		name: 'Referral',
+		iconNameImport: 'ReferralMajor'
 	},
 
 	{
 		icon: RefreshMajor,
-		name: 'Refresh'
+		name: 'Refresh',
+		iconNameImport: 'RefreshMajor'
 	},
 
 	{
 		icon: RefundMajor,
-		name: 'Refund'
+		name: 'Refund',
+		iconNameImport: 'RefundMajor'
 	},
 
 	{
 		icon: RemoveProductMajor,
-		name: 'Remove product'
+		name: 'Remove product',
+		iconNameImport: 'RemoveProductMajor'
 	},
 
 	{
 		icon: RepeatOrderMajor,
-		name: 'Repeat order'
+		name: 'Repeat order',
+		iconNameImport: 'RepeatOrderMajor'
 	},
 
 	{
 		icon: ReplaceMajor,
-		name: 'Replace'
+		name: 'Replace',
+		iconNameImport: 'ReplaceMajor'
 	},
 
 	{
 		icon: ReportsMajor,
-		name: 'Reports'
+		name: 'Reports',
+		iconNameImport: 'ReportsMajor'
 	},
 
 	{
 		icon: ResourcesMajor,
-		name: 'Resources'
+		name: 'Resources',
+		iconNameImport: 'ResourcesMajor'
 	},
 
 	{
 		icon: ReturnsMajor,
-		name: 'Returns'
+		name: 'Returns',
+		iconNameImport: 'ReturnsMajor'
 	},
 
 	{
 		icon: RiskMajor,
-		name: 'Risk'
+		name: 'Risk',
+		iconNameImport: 'RiskMajor'
 	},
 
 	{
 		icon: Rows2Major,
-		name: 'Rows2'
+		name: 'Rows2',
+		iconNameImport: 'Rows2Major'
 	},
 
 	{
 		icon: SandboxMajor,
-		name: 'Sandbox'
+		name: 'Sandbox',
+		iconNameImport: 'SandboxMajor'
 	},
 
 	{
 		icon: SearchMajor,
-		name: 'Search'
+		name: 'Search',
+		iconNameImport: 'SearchMajor'
 	},
 
 	{
 		icon: SectionMajor,
-		name: 'Section'
+		name: 'Section',
+		iconNameImport: 'SectionMajor'
 	},
 
 	{
 		icon: SecureMajor,
-		name: 'Secure'
+		name: 'Secure',
+		iconNameImport: 'SecureMajor'
 	},
 
 	{
 		icon: SendMajor,
-		name: 'Send'
+		name: 'Send',
+		iconNameImport: 'SendMajor'
 	},
 
 	{
 		icon: SettingsMajor,
-		name: 'Settings'
+		name: 'Settings',
+		iconNameImport: 'SettingsMajor'
 	},
 
 	{
 		icon: ShipmentFilledMajor,
-		name: 'Shipment filled'
+		name: 'Shipment filled',
+		iconNameImport: 'ShipmentFilledMajor'
 	},
 
 	{
 		icon: ShipmentMajor,
-		name: 'Shipment'
+		name: 'Shipment',
+		iconNameImport: 'ShipmentMajor'
 	},
 
 	{
 		icon: ShopcodesMajor,
-		name: 'Shopcodes'
+		name: 'Shopcodes',
+		iconNameImport: 'ShopcodesMajor'
 	},
 
 	{
 		icon: SidebarLeftMajor,
-		name: 'Sidebar left'
+		name: 'Sidebar left',
+		iconNameImport: 'SidebarLeftMajor'
 	},
 
 	{
 		icon: SidebarRightMajor,
-		name: 'Sidebar right'
+		name: 'Sidebar right',
+		iconNameImport: 'SidebarRightMajor'
 	},
 
 	{
 		icon: SimplifyMajor,
-		name: 'Simplify'
+		name: 'Simplify',
+		iconNameImport: 'SimplifyMajor'
 	},
 
 	{
 		icon: SlideshowMajor,
-		name: 'Slideshow'
+		name: 'Slideshow',
+		iconNameImport: 'SlideshowMajor'
 	},
 
 	{
 		icon: SmileyHappyMajor,
-		name: 'Smiley happy'
+		name: 'Smiley happy',
+		iconNameImport: 'SmileyHappyMajor'
 	},
 
 	{
 		icon: SmileyJoyMajor,
-		name: 'Smiley joy'
+		name: 'Smiley joy',
+		iconNameImport: 'SmileyJoyMajor'
 	},
 
 	{
 		icon: SmileyNeutralMajor,
-		name: 'Smiley neutral'
+		name: 'Smiley neutral',
+		iconNameImport: 'SmileyNeutralMajor'
 	},
 
 	{
 		icon: SmileySadMajor,
-		name: 'Smiley sad'
+		name: 'Smiley sad',
+		iconNameImport: 'SmileySadMajor'
 	},
 
 	{
 		icon: SocialAdMajor,
-		name: 'Social ad'
+		name: 'Social ad',
+		iconNameImport: 'SocialAdMajor'
 	},
 
 	{
 		icon: SocialPostMajor,
-		name: 'Social post'
+		name: 'Social post',
+		iconNameImport: 'SocialPostMajor'
 	},
 
 	{
 		icon: SoftPackMajor,
-		name: 'Soft pack'
+		name: 'Soft pack',
+		iconNameImport: 'SoftPackMajor'
 	},
 
 	{
 		icon: SortAscendingMajor,
-		name: 'Sort ascending'
+		name: 'Sort ascending',
+		iconNameImport: 'SortAscendingMajor'
 	},
 
 	{
 		icon: SortDescendingMajor,
-		name: 'Sort descending'
+		name: 'Sort descending',
+		iconNameImport: 'SortDescendingMajor'
 	},
 
 	{
 		icon: SoundMajor,
-		name: 'Sound'
+		name: 'Sound',
+		iconNameImport: 'SoundMajor'
 	},
 
 	{
 		icon: StatusActiveMajor,
-		name: 'Status active'
+		name: 'Status active',
+		iconNameImport: 'StatusActiveMajor'
 	},
 
 	{
 		icon: StopMajor,
-		name: 'Stop'
+		name: 'Stop',
+		iconNameImport: 'StopMajor'
 	},
 
 	{
 		icon: StoreMajor,
-		name: 'Store'
+		name: 'Store',
+		iconNameImport: 'StoreMajor'
 	},
 
 	{
 		icon: StoreStatusMajor,
-		name: 'Store status'
+		name: 'Store status',
+		iconNameImport: 'StoreStatusMajor'
 	},
 
 	{
 		icon: TabletMajor,
-		name: 'Tablet'
+		name: 'Tablet',
+		iconNameImport: 'TabletMajor'
 	},
 
 	{
 		icon: TapChipMajor,
-		name: 'Tap chip'
+		name: 'Tap chip',
+		iconNameImport: 'TapChipMajor'
 	},
 
 	{
 		icon: TaxFilledMajor,
-		name: 'Tax filled'
+		name: 'Tax filled',
+		iconNameImport: 'TaxFilledMajor'
 	},
 
 	{
 		icon: TaxMajor,
-		name: 'Tax'
+		name: 'Tax',
+		iconNameImport: 'TaxMajor'
 	},
 
 	{
 		icon: TeamMajor,
-		name: 'Team'
+		name: 'Team',
+		iconNameImport: 'TeamMajor'
 	},
 
 	{
 		icon: TemplateMajor,
-		name: 'Template'
+		name: 'Template',
+		iconNameImport: 'TemplateMajor'
 	},
 
 	{
 		icon: TextAlignmentCenterMajor,
-		name: 'Text alignment center'
+		name: 'Text alignment center',
+		iconNameImport: 'TextAlignmentCenterMajor'
 	},
 
 	{
 		icon: TextAlignmentLeftMajor,
-		name: 'Text alignment left'
+		name: 'Text alignment left',
+		iconNameImport: 'TextAlignmentLeftMajor'
 	},
 
 	{
 		icon: TextAlignmentRightMajor,
-		name: 'Text alignment right'
+		name: 'Text alignment right',
+		iconNameImport: 'TextAlignmentRightMajor'
 	},
 
 	{
 		icon: TextBlockMajor,
-		name: 'Text block'
+		name: 'Text block',
+		iconNameImport: 'TextBlockMajor'
 	},
 
 	{
 		icon: TextColorMajor,
-		name: 'Text color'
+		name: 'Text color',
+		iconNameImport: 'TextColorMajor'
 	},
 
 	{
 		icon: TextMajor,
-		name: 'Text'
+		name: 'Text',
+		iconNameImport: 'TextMajor'
 	},
 
 	{
 		icon: ThemeEditMajor,
-		name: 'Theme edit'
+		name: 'Theme edit',
+		iconNameImport: 'ThemeEditMajor'
 	},
 
 	{
 		icon: ThemeStoreMajor,
-		name: 'Theme store'
+		name: 'Theme store',
+		iconNameImport: 'ThemeStoreMajor'
 	},
 
 	{
 		icon: ThemesMajor,
-		name: 'Themes'
+		name: 'Themes',
+		iconNameImport: 'ThemesMajor'
 	},
 
 	{
 		icon: ThumbsDownMajor,
-		name: 'Thumbs down'
+		name: 'Thumbs down',
+		iconNameImport: 'ThumbsDownMajor'
 	},
 
 	{
 		icon: ThumbsUpMajor,
-		name: 'Thumbs up'
+		name: 'Thumbs up',
+		iconNameImport: 'ThumbsUpMajor'
 	},
 
 	{
 		icon: TimelineAttachmentMajor,
-		name: 'Timeline attachment'
+		name: 'Timeline attachment',
+		iconNameImport: 'TimelineAttachmentMajor'
 	},
 
 	{
 		icon: TipsMajor,
-		name: 'Tips'
+		name: 'Tips',
+		iconNameImport: 'TipsMajor'
 	},
 
 	{
 		icon: ToolsMajor,
-		name: 'Tools'
+		name: 'Tools',
+		iconNameImport: 'ToolsMajor'
 	},
 
 	{
 		icon: TransactionFeeDollarMajor,
-		name: 'Transaction fee dollar'
+		name: 'Transaction fee dollar',
+		iconNameImport: 'TransactionFeeDollarMajor'
 	},
 
 	{
 		icon: TransactionFeeEuroMajor,
-		name: 'Transaction fee euro'
+		name: 'Transaction fee euro',
+		iconNameImport: 'TransactionFeeEuroMajor'
 	},
 
 	{
 		icon: TransactionFeePoundMajor,
-		name: 'Transaction fee pound'
+		name: 'Transaction fee pound',
+		iconNameImport: 'TransactionFeePoundMajor'
 	},
 
 	{
 		icon: TransactionFeeRupeeMajor,
-		name: 'Transaction fee rupee'
+		name: 'Transaction fee rupee',
+		iconNameImport: 'TransactionFeeRupeeMajor'
 	},
 
 	{
 		icon: TransactionFeeYenMajor,
-		name: 'Transaction fee yen'
+		name: 'Transaction fee yen',
+		iconNameImport: 'TransactionFeeYenMajor'
 	},
 
 	{
 		icon: TransactionMajor,
-		name: 'Transaction'
+		name: 'Transaction',
+		iconNameImport: 'TransactionMajor'
 	},
 
 	{
 		icon: TransferFilledMajor,
-		name: 'Transfer filled'
+		name: 'Transfer filled',
+		iconNameImport: 'TransferFilledMajor'
 	},
 
 	{
 		icon: TransferInMajor,
-		name: 'Transfer in'
+		name: 'Transfer in',
+		iconNameImport: 'TransferInMajor'
 	},
 
 	{
 		icon: TransferMajor,
-		name: 'Transfer'
+		name: 'Transfer',
+		iconNameImport: 'TransferMajor'
 	},
 
 	{
 		icon: TransferOutMajor,
-		name: 'Transfer out'
+		name: 'Transfer out',
+		iconNameImport: 'TransferOutMajor'
 	},
 
 	{
 		icon: TransferWithinShopifyMajor,
-		name: 'Transfer within shopify'
+		name: 'Transfer within shopify',
+		iconNameImport: 'TransferWithinShopifyMajor'
 	},
 
 	{
 		icon: TranslateMajor,
-		name: 'Translate'
+		name: 'Translate',
+		iconNameImport: 'TranslateMajor'
 	},
 
 	{
 		icon: TransportMajor,
-		name: 'Transport'
+		name: 'Transport',
+		iconNameImport: 'TransportMajor'
 	},
 
 	{
 		icon: TroubleshootMajor,
-		name: 'Troubleshoot'
+		name: 'Troubleshoot',
+		iconNameImport: 'TroubleshootMajor'
 	},
 
 	{
 		icon: TypeMajor,
-		name: 'Type'
+		name: 'Type',
+		iconNameImport: 'TypeMajor'
 	},
 
 	{
 		icon: UnderlineMajor,
-		name: 'Underline'
+		name: 'Underline',
+		iconNameImport: 'UnderlineMajor'
 	},
 
 	{
 		icon: UndoMajor,
-		name: 'Undo'
+		name: 'Undo',
+		iconNameImport: 'UndoMajor'
 	},
 
 	{
 		icon: UnfulfilledMajor,
-		name: 'Unfulfilled'
+		name: 'Unfulfilled',
+		iconNameImport: 'UnfulfilledMajor'
 	},
 
 	{
 		icon: UnknownDeviceMajor,
-		name: 'Unknown device'
+		name: 'Unknown device',
+		iconNameImport: 'UnknownDeviceMajor'
 	},
 
 	{
 		icon: UpdateInventoryMajor,
-		name: 'Update inventory'
+		name: 'Update inventory',
+		iconNameImport: 'UpdateInventoryMajor'
 	},
 
 	{
 		icon: UploadMajor,
-		name: 'Upload'
+		name: 'Upload',
+		iconNameImport: 'UploadMajor'
 	},
 
 	{
 		icon: VariantMajor,
-		name: 'Variant'
+		name: 'Variant',
+		iconNameImport: 'VariantMajor'
 	},
 
 	{
 		icon: ViewMajor,
-		name: 'View'
+		name: 'View',
+		iconNameImport: 'ViewMajor'
 	},
 
 	{
 		icon: ViewportNarrowMajor,
-		name: 'Viewport narrow'
+		name: 'Viewport narrow',
+		iconNameImport: 'ViewportNarrowMajor'
 	},
 
 	{
 		icon: ViewportShortMajor,
-		name: 'Viewport short'
+		name: 'Viewport short',
+		iconNameImport: 'ViewportShortMajor'
 	},
 
 	{
 		icon: ViewportTallMajor,
-		name: 'Viewport tall'
+		name: 'Viewport tall',
+		iconNameImport: 'ViewportTallMajor'
 	},
 
 	{
 		icon: ViewportWideMajor,
-		name: 'Viewport wide'
+		name: 'Viewport wide',
+		iconNameImport: 'ViewportWideMajor'
 	},
 
 	{
 		icon: VocabularyMajor,
-		name: 'Vocabulary'
+		name: 'Vocabulary',
+		iconNameImport: 'VocabularyMajor'
 	},
 
 	{
 		icon: WandMajor,
-		name: 'Wand'
+		name: 'Wand',
+		iconNameImport: 'WandMajor'
 	},
 
 	{
 		icon: WearableMajor,
-		name: 'Wearable'
+		name: 'Wearable',
+		iconNameImport: 'WearableMajor'
 	},
 
 	{
 		icon: WholesaleMajor,
-		name: 'Wholesale'
+		name: 'Wholesale',
+		iconNameImport: 'WholesaleMajor'
 	},
 
 	{
 		icon: WifiMajor,
-		name: 'Wifi'
+		name: 'Wifi',
+		iconNameImport: 'WifiMajor'
 	}
 ];
 
 export const MINOR_ICONS: App.Icon[] = [
 	{
 		icon: AdjustMinor,
-		name: 'Adjust'
+		name: 'Adjust',
+		iconNameImport: 'AdjustMinor'
 	},
 
 	{
 		icon: AlertMinor,
-		name: 'Alert'
+		name: 'Alert',
+		iconNameImport: 'AlertMinor'
 	},
 
 	{
 		icon: AnalyticsBarHorizontalMinor,
-		name: 'Analytics bar horizontal'
+		name: 'Analytics bar horizontal',
+		iconNameImport: 'AnalyticsBarHorizontalMinor'
 	},
 
 	{
 		icon: AnalyticsBarStackedMinor,
-		name: 'Analytics bar stacked'
+		name: 'Analytics bar stacked',
+		iconNameImport: 'AnalyticsBarStackedMinor'
 	},
 
 	{
 		icon: AnalyticsCohortMinor,
-		name: 'Analytics cohort'
+		name: 'Analytics cohort',
+		iconNameImport: 'AnalyticsCohortMinor'
 	},
 
 	{
 		icon: AnalyticsDonutMinor,
-		name: 'Analytics donut'
+		name: 'Analytics donut',
+		iconNameImport: 'AnalyticsDonutMinor'
 	},
 
 	{
 		icon: AnalyticsFilledMinor,
-		name: 'Analytics filled'
+		name: 'Analytics filled',
+		iconNameImport: 'AnalyticsFilledMinor'
 	},
 
 	{
 		icon: AnalyticsFunnelMinor,
-		name: 'Analytics funnel'
+		name: 'Analytics funnel',
+		iconNameImport: 'AnalyticsFunnelMinor'
 	},
 
 	{
 		icon: AnalyticsLineMinor,
-		name: 'Analytics line'
+		name: 'Analytics line',
+		iconNameImport: 'AnalyticsLineMinor'
 	},
 
 	{
 		icon: AnalyticsMinor,
-		name: 'Analytics'
+		name: 'Analytics',
+		iconNameImport: 'AnalyticsMinor'
 	},
 
 	{
 		icon: AnalyticsTableMinor,
-		name: 'Analytics table'
+		name: 'Analytics table',
+		iconNameImport: 'AnalyticsTableMinor'
 	},
 
 	{
 		icon: AnyClickModelMinor,
-		name: 'Any click model'
+		name: 'Any click model',
+		iconNameImport: 'AnyClickModelMinor'
 	},
 
 	{
 		icon: AppExtensionMinor,
-		name: 'App extension'
+		name: 'App extension',
+		iconNameImport: 'AppExtensionMinor'
 	},
 
 	{
 		icon: AppsMinor,
-		name: 'Apps'
+		name: 'Apps',
+		iconNameImport: 'AppsMinor'
 	},
 
 	{
 		icon: ArchiveMinor,
-		name: 'Archive'
+		name: 'Archive',
+		iconNameImport: 'ArchiveMinor'
 	},
 
 	{
 		icon: ArrowDownMinor,
-		name: 'Arrow down'
+		name: 'Arrow down',
+		iconNameImport: 'ArrowDownMinor'
 	},
 
 	{
 		icon: ArrowLeftMinor,
-		name: 'Arrow left'
+		name: 'Arrow left',
+		iconNameImport: 'ArrowLeftMinor'
 	},
 
 	{
 		icon: ArrowRightMinor,
-		name: 'Arrow right'
+		name: 'Arrow right',
+		iconNameImport: 'ArrowRightMinor'
 	},
 
 	{
 		icon: ArrowUpMinor,
-		name: 'Arrow up'
+		name: 'Arrow up',
+		iconNameImport: 'ArrowUpMinor'
 	},
 
 	{
 		icon: BehaviorMinor,
-		name: 'Behavior'
+		name: 'Behavior',
+		iconNameImport: 'BehaviorMinor'
 	},
 
 	{
 		icon: BlockMinor,
-		name: 'Block'
+		name: 'Block',
+		iconNameImport: 'BlockMinor'
 	},
 
 	{
 		icon: BoldMinor,
-		name: 'Bold'
+		name: 'Bold',
+		iconNameImport: 'BoldMinor'
 	},
 
 	{
 		icon: ButtonMinor,
-		name: 'Button'
+		name: 'Button',
+		iconNameImport: 'ButtonMinor'
 	},
 
 	{
 		icon: CalendarMinor,
-		name: 'Calendar'
+		name: 'Calendar',
+		iconNameImport: 'CalendarMinor'
 	},
 
 	{
 		icon: CalendarTimeMinor,
-		name: 'Calendar time'
+		name: 'Calendar time',
+		iconNameImport: 'CalendarTimeMinor'
 	},
 
 	{
 		icon: CancelMinor,
-		name: 'Cancel'
+		name: 'Cancel',
+		iconNameImport: 'CancelMinor'
 	},
 
 	{
 		icon: CancelSmallMinor,
-		name: 'Cancel small'
+		name: 'Cancel small',
+		iconNameImport: 'CancelSmallMinor'
 	},
 
 	{
 		icon: CapturePaymentMinor,
-		name: 'Capture payment'
+		name: 'Capture payment',
+		iconNameImport: 'CapturePaymentMinor'
 	},
 
 	{
 		icon: CaretDownMinor,
-		name: 'Caret down'
+		name: 'Caret down',
+		iconNameImport: 'CaretDownMinor'
 	},
 
 	{
 		icon: CaretUpMinor,
-		name: 'Caret up'
+		name: 'Caret up',
+		iconNameImport: 'CaretUpMinor'
 	},
 
 	{
 		icon: CashDollarMinor,
-		name: 'Cash dollar'
+		name: 'Cash dollar',
+		iconNameImport: 'CashDollarMinor'
 	},
 
 	{
 		icon: ChevronDownMinor,
-		name: 'Chevron down'
+		name: 'Chevron down',
+		iconNameImport: 'ChevronDownMinor'
 	},
 
 	{
 		icon: ChevronLeftMinor,
-		name: 'Chevron left'
+		name: 'Chevron left',
+		iconNameImport: 'ChevronLeftMinor'
 	},
 
 	{
 		icon: ChevronRightMinor,
-		name: 'Chevron right'
+		name: 'Chevron right',
+		iconNameImport: 'ChevronRightMinor'
 	},
 
 	{
 		icon: ChevronUpMinor,
-		name: 'Chevron up'
+		name: 'Chevron up',
+		iconNameImport: 'ChevronUpMinor'
 	},
 
 	{
 		icon: CircleCancelMinor,
-		name: 'Circle cancel'
+		name: 'Circle cancel',
+		iconNameImport: 'CircleCancelMinor'
 	},
 
 	{
 		icon: CircleChevronDownMinor,
-		name: 'Circle chevron down'
+		name: 'Circle chevron down',
+		iconNameImport: 'CircleChevronDownMinor'
 	},
 
 	{
 		icon: CircleChevronLeftMinor,
-		name: 'Circle chevron left'
+		name: 'Circle chevron left',
+		iconNameImport: 'CircleChevronLeftMinor'
 	},
 
 	{
 		icon: CircleChevronRightMinor,
-		name: 'Circle chevron right'
+		name: 'Circle chevron right',
+		iconNameImport: 'CircleChevronRightMinor'
 	},
 
 	{
 		icon: CircleChevronUpMinor,
-		name: 'Circle chevron up'
+		name: 'Circle chevron up',
+		iconNameImport: 'CircleChevronUpMinor'
 	},
 
 	{
 		icon: CircleDisableMinor,
-		name: 'Circle disable'
+		name: 'Circle disable',
+		iconNameImport: 'CircleDisableMinor'
 	},
 
 	{
 		icon: CircleMinusMinor,
-		name: 'Circle minus'
+		name: 'Circle minus',
+		iconNameImport: 'CircleMinusMinor'
 	},
 
 	{
 		icon: CircleMinusOutlineMinor,
-		name: 'Circle minus outline'
+		name: 'Circle minus outline',
+		iconNameImport: 'CircleMinusOutlineMinor'
 	},
 
 	{
 		icon: CirclePlusMinor,
-		name: 'Circle plus'
+		name: 'Circle plus',
+		iconNameImport: 'CirclePlusMinor'
 	},
 
 	{
 		icon: CirclePlusOutlineMinor,
-		name: 'Circle plus outline'
+		name: 'Circle plus outline',
+		iconNameImport: 'CirclePlusOutlineMinor'
 	},
 
 	{
 		icon: CircleTickMinor,
-		name: 'Circle tick'
+		name: 'Circle tick',
+		iconNameImport: 'CircleTickMinor'
 	},
 
 	{
 		icon: CircleTickOutlineMinor,
-		name: 'Circle tick outline'
+		name: 'Circle tick outline',
+		iconNameImport: 'CircleTickOutlineMinor'
 	},
 
 	{
 		icon: ClipboardMinor,
-		name: 'Clipboard'
+		name: 'Clipboard',
+		iconNameImport: 'ClipboardMinor'
 	},
 
 	{
 		icon: ClockMinor,
-		name: 'Clock'
+		name: 'Clock',
+		iconNameImport: 'ClockMinor'
 	},
 
 	{
 		icon: CodeMinor,
-		name: 'Code'
+		name: 'Code',
+		iconNameImport: 'CodeMinor'
 	},
 
 	{
 		icon: CollectionReferenceMinor,
-		name: 'Collection reference'
+		name: 'Collection reference',
+		iconNameImport: 'CollectionReferenceMinor'
 	},
 
 	{
 		icon: ColorNoneMinor,
-		name: 'Color none'
+		name: 'Color none',
+		iconNameImport: 'ColorNoneMinor'
 	},
 
 	{
 		icon: Columns3Minor,
-		name: 'Columns3'
+		name: 'Columns3',
+		iconNameImport: 'Columns3Minor'
 	},
 
 	{
 		icon: ConnectMinor,
-		name: 'Connect'
+		name: 'Connect',
+		iconNameImport: 'ConnectMinor'
 	},
 
 	{
 		icon: ContentFilledMinor,
-		name: 'Content filled'
+		name: 'Content filled',
+		iconNameImport: 'ContentFilledMinor'
 	},
 
 	{
 		icon: ContentMinor,
-		name: 'Content'
+		name: 'Content',
+		iconNameImport: 'ContentMinor'
 	},
 
 	{
 		icon: ConversationMinor,
-		name: 'Conversation'
+		name: 'Conversation',
+		iconNameImport: 'ConversationMinor'
 	},
 
 	{
 		icon: CurrencyConvertMinor,
-		name: 'Currency convert'
+		name: 'Currency convert',
+		iconNameImport: 'CurrencyConvertMinor'
 	},
 
 	{
 		icon: CustomersFilledMinor,
-		name: 'Customers filled'
+		name: 'Customers filled',
+		iconNameImport: 'CustomersFilledMinor'
 	},
 
 	{
 		icon: CustomersMinor,
-		name: 'Customers'
+		name: 'Customers',
+		iconNameImport: 'CustomersMinor'
 	},
 
 	{
 		icon: DataDrivenModelMinor,
-		name: 'Data driven model'
+		name: 'Data driven model',
+		iconNameImport: 'DataDrivenModelMinor'
 	},
 
 	{
 		icon: DecimalMinor,
-		name: 'Decimal'
+		name: 'Decimal',
+		iconNameImport: 'DecimalMinor'
 	},
 
 	{
 		icon: DeleteMinor,
-		name: 'Delete'
+		name: 'Delete',
+		iconNameImport: 'DeleteMinor'
 	},
 
 	{
 		icon: DiamondAlertMinor,
-		name: 'Diamond alert'
+		name: 'Diamond alert',
+		iconNameImport: 'DiamondAlertMinor'
 	},
 
 	{
 		icon: DiscountsFilledMinor,
-		name: 'Discounts filled'
+		name: 'Discounts filled',
+		iconNameImport: 'DiscountsFilledMinor'
 	},
 
 	{
 		icon: DiscountsMinor,
-		name: 'Discounts'
+		name: 'Discounts',
+		iconNameImport: 'DiscountsMinor'
 	},
 
 	{
 		icon: DisputeMinor,
-		name: 'Dispute'
+		name: 'Dispute',
+		iconNameImport: 'DisputeMinor'
 	},
 
 	{
 		icon: DomainRedirectMinor,
-		name: 'Domain redirect'
+		name: 'Domain redirect',
+		iconNameImport: 'DomainRedirectMinor'
 	},
 
 	{
 		icon: DragHandleMinor,
-		name: 'Drag handle'
+		name: 'Drag handle',
+		iconNameImport: 'DragHandleMinor'
 	},
 
 	{
 		icon: DropdownMinor,
-		name: 'Dropdown'
+		name: 'Dropdown',
+		iconNameImport: 'DropdownMinor'
 	},
 
 	{
 		icon: DuplicateMinor,
-		name: 'Duplicate'
+		name: 'Duplicate',
+		iconNameImport: 'DuplicateMinor'
 	},
 
 	{
 		icon: DynamicSourceMinor,
-		name: 'Dynamic source'
+		name: 'Dynamic source',
+		iconNameImport: 'DynamicSourceMinor'
 	},
 
 	{
 		icon: EditMinor,
-		name: 'Edit'
+		name: 'Edit',
+		iconNameImport: 'EditMinor'
 	},
 
 	{
 		icon: EmbedMinor,
-		name: 'Embed'
+		name: 'Embed',
+		iconNameImport: 'EmbedMinor'
 	},
 
 	{
 		icon: EnableSelectionMinor,
-		name: 'Enable selection'
+		name: 'Enable selection',
+		iconNameImport: 'EnableSelectionMinor'
 	},
 
 	{
 		icon: ExportMinor,
-		name: 'Export'
+		name: 'Export',
+		iconNameImport: 'ExportMinor'
 	},
 
 	{
 		icon: ExtendMinor,
-		name: 'Extend'
+		name: 'Extend',
+		iconNameImport: 'ExtendMinor'
 	},
 
 	{
 		icon: ExternalMinor,
-		name: 'External'
+		name: 'External',
+		iconNameImport: 'ExternalMinor'
 	},
 
 	{
 		icon: ExternalSmallMinor,
-		name: 'External small'
+		name: 'External small',
+		iconNameImport: 'ExternalSmallMinor'
 	},
 
 	{
 		icon: EyeDropperMinor,
-		name: 'Eye dropper'
+		name: 'Eye dropper',
+		iconNameImport: 'EyeDropperMinor'
 	},
 
 	{
 		icon: FacebookMinor,
-		name: 'Facebook'
+		name: 'Facebook',
+		iconNameImport: 'FacebookMinor'
 	},
 
 	{
 		icon: FileFilledMinor,
-		name: 'File filled'
+		name: 'File filled',
+		iconNameImport: 'FileFilledMinor'
 	},
 
 	{
 		icon: FileMinor,
-		name: 'File'
+		name: 'File',
+		iconNameImport: 'FileMinor'
 	},
 
 	{
 		icon: FilterMinor,
-		name: 'Filter'
+		name: 'Filter',
+		iconNameImport: 'FilterMinor'
 	},
 
 	{
 		icon: FinancesMinor,
-		name: 'Finances'
+		name: 'Finances',
+		iconNameImport: 'FinancesMinor'
 	},
 
 	{
 		icon: FirstClickModelMinor,
-		name: 'First click model'
+		name: 'First click model',
+		iconNameImport: 'FirstClickModelMinor'
 	},
 
 	{
 		icon: FraudProtectMinor,
-		name: 'Fraud protect'
+		name: 'Fraud protect',
+		iconNameImport: 'FraudProtectMinor'
 	},
 
 	{
 		icon: FraudProtectPendingMinor,
-		name: 'Fraud protect pending'
+		name: 'Fraud protect pending',
+		iconNameImport: 'FraudProtectPendingMinor'
 	},
 
 	{
 		icon: FraudProtectUnprotectedMinor,
-		name: 'Fraud protect unprotected'
+		name: 'Fraud protect unprotected',
+		iconNameImport: 'FraudProtectUnprotectedMinor'
 	},
 
 	{
 		icon: GaugeMinor,
-		name: 'Gauge'
+		name: 'Gauge',
+		iconNameImport: 'GaugeMinor'
 	},
 
 	{
 		icon: GiftCardFilledMinor,
-		name: 'Gift card filled'
+		name: 'Gift card filled',
+		iconNameImport: 'GiftCardFilledMinor'
 	},
 
 	{
 		icon: GiftCardMinor,
-		name: 'Gift card'
+		name: 'Gift card',
+		iconNameImport: 'GiftCardMinor'
 	},
 
 	{
 		icon: GlobeMinor,
-		name: 'Globe'
+		name: 'Globe',
+		iconNameImport: 'GlobeMinor'
 	},
 
 	{
 		icon: HashtagMinor,
-		name: 'Hashtag'
+		name: 'Hashtag',
+		iconNameImport: 'HashtagMinor'
 	},
 
 	{
 		icon: HideMinor,
-		name: 'Hide'
+		name: 'Hide',
+		iconNameImport: 'HideMinor'
 	},
 
 	{
 		icon: HomeFilledMinor,
-		name: 'Home filled'
+		name: 'Home filled',
+		iconNameImport: 'HomeFilledMinor'
 	},
 
 	{
 		icon: HomeMinor,
-		name: 'Home'
+		name: 'Home',
+		iconNameImport: 'HomeMinor'
 	},
 
 	{
 		icon: HorizontalDotsMinor,
-		name: 'Horizontal dots'
+		name: 'Horizontal dots',
+		iconNameImport: 'HorizontalDotsMinor'
 	},
 
 	{
 		icon: ImageAltMinor,
-		name: 'Image alt'
+		name: 'Image alt',
+		iconNameImport: 'ImageAltMinor'
 	},
 
 	{
 		icon: ImportMinor,
-		name: 'Import'
+		name: 'Import',
+		iconNameImport: 'ImportMinor'
 	},
 
 	{
 		icon: InactiveLocationMinor,
-		name: 'Inactive location'
+		name: 'Inactive location',
+		iconNameImport: 'InactiveLocationMinor'
 	},
 
 	{
 		icon: IndentMinor,
-		name: 'Indent'
+		name: 'Indent',
+		iconNameImport: 'IndentMinor'
 	},
 
 	{
 		icon: InfoMinor,
-		name: 'Info'
+		name: 'Info',
+		iconNameImport: 'InfoMinor'
 	},
 
 	{
 		icon: InsertDynamicSourceMinor,
-		name: 'Insert dynamic source'
+		name: 'Insert dynamic source',
+		iconNameImport: 'InsertDynamicSourceMinor'
 	},
 
 	{
 		icon: InstagramMinor,
-		name: 'Instagram'
+		name: 'Instagram',
+		iconNameImport: 'InstagramMinor'
 	},
 
 	{
 		icon: InstallMinor,
-		name: 'Install'
+		name: 'Install',
+		iconNameImport: 'InstallMinor'
 	},
 
 	{
 		icon: InviteMinor,
-		name: 'Invite'
+		name: 'Invite',
+		iconNameImport: 'InviteMinor'
 	},
 
 	{
 		icon: ItalicMinor,
-		name: 'Italic'
+		name: 'Italic',
+		iconNameImport: 'ItalicMinor'
 	},
 
 	{
 		icon: KeyboardMinor,
-		name: 'Keyboard'
+		name: 'Keyboard',
+		iconNameImport: 'KeyboardMinor'
 	},
 
 	{
 		icon: LanguageFilledMinor,
-		name: 'Language filled'
+		name: 'Language filled',
+		iconNameImport: 'LanguageFilledMinor'
 	},
 
 	{
 		icon: LanguageMinor,
-		name: 'Language'
+		name: 'Language',
+		iconNameImport: 'LanguageMinor'
 	},
 
 	{
 		icon: LastClickModelMinor,
-		name: 'Last click model'
+		name: 'Last click model',
+		iconNameImport: 'LastClickModelMinor'
 	},
 
 	{
 		icon: LastNonDirectClickModelMinor,
-		name: 'Last non direct click model'
+		name: 'Last non direct click model',
+		iconNameImport: 'LastNonDirectClickModelMinor'
 	},
 
 	{
 		icon: LinearModelMinor,
-		name: 'Linear model'
+		name: 'Linear model',
+		iconNameImport: 'LinearModelMinor'
 	},
 
 	{
 		icon: LinkMinor,
-		name: 'Link'
+		name: 'Link',
+		iconNameImport: 'LinkMinor'
 	},
 
 	{
 		icon: ListMinor,
-		name: 'List'
+		name: 'List',
+		iconNameImport: 'ListMinor'
 	},
 
 	{
 		icon: LocationsMinor,
-		name: 'Locations'
+		name: 'Locations',
+		iconNameImport: 'LocationsMinor'
 	},
 
 	{
 		icon: LockMinor,
-		name: 'Lock'
+		name: 'Lock',
+		iconNameImport: 'LockMinor'
 	},
 
 	{
 		icon: LogOutMinor,
-		name: 'Log out'
+		name: 'Log out',
+		iconNameImport: 'LogOutMinor'
 	},
 
 	{
 		icon: MagicMinor,
-		name: 'Magic'
+		name: 'Magic',
+		iconNameImport: 'MagicMinor'
 	},
 
 	{
 		icon: MarkFulfilledMinor,
-		name: 'Mark fulfilled'
+		name: 'Mark fulfilled',
+		iconNameImport: 'MarkFulfilledMinor'
 	},
 
 	{
 		icon: MarkPaidMinor,
-		name: 'Mark paid'
+		name: 'Mark paid',
+		iconNameImport: 'MarkPaidMinor'
 	},
 
 	{
 		icon: MarketingFilledMinor,
-		name: 'Marketing filled'
+		name: 'Marketing filled',
+		iconNameImport: 'MarketingFilledMinor'
 	},
 
 	{
 		icon: MarketingMinor,
-		name: 'Marketing'
+		name: 'Marketing',
+		iconNameImport: 'MarketingMinor'
 	},
 
 	{
 		icon: MaximizeMinor,
-		name: 'Maximize'
+		name: 'Maximize',
+		iconNameImport: 'MaximizeMinor'
 	},
 
 	{
 		icon: MeasurementMinor,
-		name: 'Measurement'
+		name: 'Measurement',
+		iconNameImport: 'MeasurementMinor'
 	},
 
 	{
 		icon: MergeMinor,
-		name: 'Merge'
+		name: 'Merge',
+		iconNameImport: 'MergeMinor'
 	},
 
 	{
 		icon: MetafieldsFilledMinor,
-		name: 'Metafields filled'
+		name: 'Metafields filled',
+		iconNameImport: 'MetafieldsFilledMinor'
 	},
 
 	{
 		icon: MetafieldsMinor,
-		name: 'Metafields'
+		name: 'Metafields',
+		iconNameImport: 'MetafieldsMinor'
 	},
 
 	{
 		icon: MetaobjectMinor,
-		name: 'Metaobject'
+		name: 'Metaobject',
+		iconNameImport: 'MetaobjectMinor'
 	},
 
 	{
 		icon: MetaobjectReferenceMinor,
-		name: 'Metaobject reference'
+		name: 'Metaobject reference',
+		iconNameImport: 'MetaobjectReferenceMinor'
 	},
 
 	{
 		icon: MinimizeMinor,
-		name: 'Minimize'
+		name: 'Minimize',
+		iconNameImport: 'MinimizeMinor'
 	},
 
 	{
 		icon: MinusMinor,
-		name: 'Minus'
+		name: 'Minus',
+		iconNameImport: 'MinusMinor'
 	},
 
 	{
 		icon: MoneyFilledMinor,
-		name: 'Money filled'
+		name: 'Money filled',
+		iconNameImport: 'MoneyFilledMinor'
 	},
 
 	{
 		icon: MoneyMinor,
-		name: 'Money'
+		name: 'Money',
+		iconNameImport: 'MoneyMinor'
 	},
 
 	{
 		icon: NoteMinor,
-		name: 'Note'
+		name: 'Note',
+		iconNameImport: 'NoteMinor'
 	},
 
 	{
 		icon: OnlineStoreMinor,
-		name: 'Online store'
+		name: 'Online store',
+		iconNameImport: 'OnlineStoreMinor'
 	},
 
 	{
 		icon: OrderStatusMinor,
-		name: 'Order status'
+		name: 'Order status',
+		iconNameImport: 'OrderStatusMinor'
 	},
 
 	{
 		icon: OrderedListMinor,
-		name: 'Ordered list'
+		name: 'Ordered list',
+		iconNameImport: 'OrderedListMinor'
 	},
 
 	{
 		icon: OrdersFilledMinor,
-		name: 'Orders filled'
+		name: 'Orders filled',
+		iconNameImport: 'OrdersFilledMinor'
 	},
 
 	{
 		icon: OrdersMinor,
-		name: 'Orders'
+		name: 'Orders',
+		iconNameImport: 'OrdersMinor'
 	},
 
 	{
 		icon: OutdentMinor,
-		name: 'Outdent'
+		name: 'Outdent',
+		iconNameImport: 'OutdentMinor'
 	},
 
 	{
 		icon: PageReferenceMinor,
-		name: 'Page reference'
+		name: 'Page reference',
+		iconNameImport: 'PageReferenceMinor'
 	},
 
 	{
 		icon: PaginationEndMinor,
-		name: 'Pagination end'
+		name: 'Pagination end',
+		iconNameImport: 'PaginationEndMinor'
 	},
 
 	{
 		icon: PaginationStartMinor,
-		name: 'Pagination start'
+		name: 'Pagination start',
+		iconNameImport: 'PaginationStartMinor'
 	},
 
 	{
 		icon: PaperCheckMinor,
-		name: 'Paper check'
+		name: 'Paper check',
+		iconNameImport: 'PaperCheckMinor'
 	},
 
 	{
 		icon: PasskeyFilledMinor,
-		name: 'Passkey filled'
+		name: 'Passkey filled',
+		iconNameImport: 'PasskeyFilledMinor'
 	},
 
 	{
 		icon: PasskeyMinor,
-		name: 'Passkey'
+		name: 'Passkey',
+		iconNameImport: 'PasskeyMinor'
 	},
 
 	{
 		icon: PauseMinor,
-		name: 'Pause'
+		name: 'Pause',
+		iconNameImport: 'PauseMinor'
 	},
 
 	{
 		icon: PinMinor,
-		name: 'Pin'
+		name: 'Pin',
+		iconNameImport: 'PinMinor'
 	},
 
 	{
 		icon: PinUnfilledMinor,
-		name: 'Pin unfilled'
+		name: 'Pin unfilled',
+		iconNameImport: 'PinUnfilledMinor'
 	},
 
 	{
 		icon: PintrestMinor,
-		name: 'Pintrest'
+		name: 'Pintrest',
+		iconNameImport: 'PintrestMinor'
 	},
 
 	{
 		icon: PlanFilledMinor,
-		name: 'Plan filled'
+		name: 'Plan filled',
+		iconNameImport: 'PlanFilledMinor'
 	},
 
 	{
 		icon: PlanMinor,
-		name: 'Plan'
+		name: 'Plan',
+		iconNameImport: 'PlanMinor'
 	},
 
 	{
 		icon: PlayMinor,
-		name: 'Play'
+		name: 'Play',
+		iconNameImport: 'PlayMinor'
 	},
 
 	{
 		icon: PlusMinor,
-		name: 'Plus'
+		name: 'Plus',
+		iconNameImport: 'PlusMinor'
 	},
 
 	{
 		icon: PositionBasedModelMinor,
-		name: 'Position based model'
+		name: 'Position based model',
+		iconNameImport: 'PositionBasedModelMinor'
 	},
 
 	{
 		icon: PriceLookupMinor,
-		name: 'Price lookup'
+		name: 'Price lookup',
+		iconNameImport: 'PriceLookupMinor'
 	},
 
 	{
 		icon: PrintMinor,
-		name: 'Print'
+		name: 'Print',
+		iconNameImport: 'PrintMinor'
 	},
 
 	{
 		icon: ProductReferenceMinor,
-		name: 'Product reference'
+		name: 'Product reference',
+		iconNameImport: 'ProductReferenceMinor'
 	},
 
 	{
 		icon: ProductReturnsMinor,
-		name: 'Product returns'
+		name: 'Product returns',
+		iconNameImport: 'ProductReturnsMinor'
 	},
 
 	{
 		icon: ProductsFilledMinor,
-		name: 'Products filled'
+		name: 'Products filled',
+		iconNameImport: 'ProductsFilledMinor'
 	},
 
 	{
 		icon: ProductsMinor,
-		name: 'Products'
+		name: 'Products',
+		iconNameImport: 'ProductsMinor'
 	},
 
 	{
 		icon: ProfileMinor,
-		name: 'Profile'
+		name: 'Profile',
+		iconNameImport: 'ProfileMinor'
 	},
 
 	{
 		icon: PromoteFilledMinor,
-		name: 'Promote filled'
+		name: 'Promote filled',
+		iconNameImport: 'PromoteFilledMinor'
 	},
 
 	{
 		icon: PromoteMinor,
-		name: 'Promote'
+		name: 'Promote',
+		iconNameImport: 'PromoteMinor'
 	},
 
 	{
 		icon: QuestionMarkInverseMinor,
-		name: 'Question mark inverse'
+		name: 'Question mark inverse',
+		iconNameImport: 'QuestionMarkInverseMinor'
 	},
 
 	{
 		icon: QuestionMarkMinor,
-		name: 'Question mark'
+		name: 'Question mark',
+		iconNameImport: 'QuestionMarkMinor'
 	},
 
 	{
 		icon: ReadTimeMinor,
-		name: 'Read time'
+		name: 'Read time',
+		iconNameImport: 'ReadTimeMinor'
 	},
 
 	{
 		icon: RefreshMinor,
-		name: 'Refresh'
+		name: 'Refresh',
+		iconNameImport: 'RefreshMinor'
 	},
 
 	{
 		icon: RefundMinor,
-		name: 'Refund'
+		name: 'Refund',
+		iconNameImport: 'RefundMinor'
 	},
 
 	{
 		icon: ReplayMinor,
-		name: 'Replay'
+		name: 'Replay',
+		iconNameImport: 'ReplayMinor'
 	},
 
 	{
 		icon: ReportFilledMinor,
-		name: 'Report filled'
+		name: 'Report filled',
+		iconNameImport: 'ReportFilledMinor'
 	},
 
 	{
 		icon: ReportMinor,
-		name: 'Report'
+		name: 'Report',
+		iconNameImport: 'ReportMinor'
 	},
 
 	{
 		icon: ResetMinor,
-		name: 'Reset'
+		name: 'Reset',
+		iconNameImport: 'ResetMinor'
 	},
 
 	{
 		icon: ReturnMinor,
-		name: 'Return'
+		name: 'Return',
+		iconNameImport: 'ReturnMinor'
 	},
 
 	{
 		icon: RichTextMinor,
-		name: 'Rich text'
+		name: 'Rich text',
+		iconNameImport: 'RichTextMinor'
 	},
 
 	{
 		icon: RiskMinor,
-		name: 'Risk'
+		name: 'Risk',
+		iconNameImport: 'RiskMinor'
 	},
 
 	{
 		icon: SaveMinor,
-		name: 'Save'
+		name: 'Save',
+		iconNameImport: 'SaveMinor'
 	},
 
 	{
 		icon: SearchMinor,
-		name: 'Search'
+		name: 'Search',
+		iconNameImport: 'SearchMinor'
 	},
 
 	{
 		icon: SelectMinor,
-		name: 'Select'
+		name: 'Select',
+		iconNameImport: 'SelectMinor'
 	},
 
 	{
 		icon: SettingsFilledMinor,
-		name: 'Settings filled'
+		name: 'Settings filled',
+		iconNameImport: 'SettingsFilledMinor'
 	},
 
 	{
 		icon: SettingsMinor,
-		name: 'Settings'
+		name: 'Settings',
+		iconNameImport: 'SettingsMinor'
 	},
 
 	{
 		icon: ShareIosMinor,
-		name: 'Share ios'
+		name: 'Share ios',
+		iconNameImport: 'ShareIosMinor'
 	},
 
 	{
 		icon: ShareMinor,
-		name: 'Share'
+		name: 'Share',
+		iconNameImport: 'ShareMinor'
 	},
 
 	{
 		icon: SimplifyMinor,
-		name: 'Simplify'
+		name: 'Simplify',
+		iconNameImport: 'SimplifyMinor'
 	},
 
 	{
 		icon: SnapchatMinor,
-		name: 'Snapchat'
+		name: 'Snapchat',
+		iconNameImport: 'SnapchatMinor'
 	},
 
 	{
 		icon: SortMinor,
-		name: 'Sort'
+		name: 'Sort',
+		iconNameImport: 'SortMinor'
 	},
 
 	{
 		icon: StarFilledMinor,
-		name: 'Star filled'
+		name: 'Star filled',
+		iconNameImport: 'StarFilledMinor'
 	},
 
 	{
 		icon: StarOutlineMinor,
-		name: 'Star outline'
+		name: 'Star outline',
+		iconNameImport: 'StarOutlineMinor'
 	},
 
 	{
 		icon: StoreDetailsFilledMinor,
-		name: 'Store details filled'
+		name: 'Store details filled',
+		iconNameImport: 'StoreDetailsFilledMinor'
 	},
 
 	{
 		icon: StoreDetailsMinor,
-		name: 'Store details'
+		name: 'Store details',
+		iconNameImport: 'StoreDetailsMinor'
 	},
 
 	{
 		icon: StoreFilledMinor,
-		name: 'Store filled'
+		name: 'Store filled',
+		iconNameImport: 'StoreFilledMinor'
 	},
 
 	{
 		icon: StoreMinor,
-		name: 'Store'
+		name: 'Store',
+		iconNameImport: 'StoreMinor'
 	},
 
 	{
 		icon: TemplateMinor,
-		name: 'Template'
+		name: 'Template',
+		iconNameImport: 'TemplateMinor'
 	},
 
 	{
 		icon: TextColorMinor,
-		name: 'Text color'
+		name: 'Text color',
+		iconNameImport: 'TextColorMinor'
 	},
 
 	{
 		icon: ThumbsDownMinor,
-		name: 'Thumbs down'
+		name: 'Thumbs down',
+		iconNameImport: 'ThumbsDownMinor'
 	},
 
 	{
 		icon: ThumbsUpMinor,
-		name: 'Thumbs up'
+		name: 'Thumbs up',
+		iconNameImport: 'ThumbsUpMinor'
 	},
 
 	{
 		icon: TickMinor,
-		name: 'Tick'
+		name: 'Tick',
+		iconNameImport: 'TickMinor'
 	},
 
 	{
 		icon: TickSmallMinor,
-		name: 'Tick small'
+		name: 'Tick small',
+		iconNameImport: 'TickSmallMinor'
 	},
 
 	{
 		icon: TiktokMinor,
-		name: 'Tiktok'
+		name: 'Tiktok',
+		iconNameImport: 'TiktokMinor'
 	},
 
 	{
 		icon: TimeDecayModelMinor,
-		name: 'Time decay model'
+		name: 'Time decay model',
+		iconNameImport: 'TimeDecayModelMinor'
 	},
 
 	{
 		icon: TitleMinor,
-		name: 'Title'
+		name: 'Title',
+		iconNameImport: 'TitleMinor'
 	},
 
 	{
 		icon: ToggleMinor,
-		name: 'Toggle'
+		name: 'Toggle',
+		iconNameImport: 'ToggleMinor'
 	},
 
 	{
 		icon: TwitterMinor,
-		name: 'Twitter'
+		name: 'Twitter',
+		iconNameImport: 'TwitterMinor'
 	},
 
 	{
 		icon: TypeMinor,
-		name: 'Type'
+		name: 'Type',
+		iconNameImport: 'TypeMinor'
 	},
 
 	{
 		icon: UnderlineMinor,
-		name: 'Underline'
+		name: 'Underline',
+		iconNameImport: 'UnderlineMinor'
 	},
 
 	{
 		icon: ViewMinor,
-		name: 'View'
+		name: 'View',
+		iconNameImport: 'ViewMinor'
 	},
 
 	{
 		icon: VolumeMinor,
-		name: 'Volume'
+		name: 'Volume',
+		iconNameImport: 'VolumeMinor'
 	},
 
 	{
 		icon: WandMinor,
-		name: 'Wand'
+		name: 'Wand',
+		iconNameImport: 'WandMinor'
 	},
 
 	{
 		icon: WeightMinor,
-		name: 'Weight'
+		name: 'Weight',
+		iconNameImport: 'WeightMinor'
 	},
 
 	{
 		icon: YoutubeMinor,
-		name: 'Youtube'
+		name: 'Youtube',
+		iconNameImport: 'YoutubeMinor'
 	}
 ];
