@@ -84,13 +84,13 @@
 		</div>
 	</div>
 
-	<h2>Major icons</h2>
+	<h2 class="font-medium">Major icons</h2>
 	{#if filteredMajorIcons.length > 0}
 		<IconsList icons={filteredMajorIcons} />
 	{:else if searchTerm === '' && filteredMajorIcons.length === 0}
 		<IconsList icons={MAJOR_ICONS} />
 	{/if}
-	<h2>Minor icons</h2>
+	<h2 class="font-medium">Minor icons</h2>
 	{#if filteredMinorIcons.length > 0}
 		<IconsList icons={filteredMinorIcons} />
 	{:else if searchTerm === '' && filteredMinorIcons.length === 0}

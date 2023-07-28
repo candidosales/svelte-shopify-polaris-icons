@@ -11,7 +11,7 @@
 	>
 	<p>MIT license</p>
 </div>
-<h1>Welcome to Svelte Shopify Polaris Icons</h1>
+<h1 class="font-medium">Welcome to Svelte Shopify Polaris Icons</h1>
 <p class="text-slate-600 mb-2 text-md">Installation</p>
 <pre class="mt-0">pnpm i -D svelte-shopify-polaris-icons</pre>
 <div class="mt-4 mb-8 flex justify-center gap-8 lg:justify-start">
