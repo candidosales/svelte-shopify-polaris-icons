@@ -66,7 +66,7 @@
 							type="search"
 							aria-label="Search all icons"
 							placeholder="Search all icons..."
-							class="border-0 block w-full appearance-none rounded-lg bg-transparent py-4 pl-9 pr-4 text-base text-slate-900 transition placeholder:text-slate-400 focus:outline-none sm:text-[0.8125rem] sm:leading-6 [&amp;::-webkit-search-cancel-button]:appearance-none [&amp;::-webkit-search-decoration]:appearance-none [&amp;::-webkit-search-results-button]:appearance-none [&amp;::-webkit-search-results-decoration]:appearance-none"
+							class="border-0 focus:border-0 hover:border-0 focus:shadow-none block w-full appearance-none rounded-lg bg-transparent py-4 pl-9 pr-4 text-base text-slate-900 transition placeholder:text-slate-400 focus:outline-none sm:text-[0.8125rem] sm:leading-6 [&amp;::-webkit-search-cancel-button]:appearance-none [&amp;::-webkit-search-decoration]:appearance-none [&amp;::-webkit-search-results-button]:appearance-none [&amp;::-webkit-search-results-decoration]:appearance-none"
 							autocomplete="off"
 							bind:value={searchTerm}
 							on:input={searchBooks}
@@ -87,13 +87,13 @@
 	<h2>Major icons</h2>
 	{#if filteredMajorIcons.length > 0}
 		<IconsList icons={filteredMajorIcons} />
-	{:else}
+	{:else if searchTerm === '' && filteredMajorIcons.length === 0}
 		<IconsList icons={MAJOR_ICONS} />
 	{/if}
 	<h2>Minor icons</h2>
 	{#if filteredMinorIcons.length > 0}
 		<IconsList icons={filteredMinorIcons} />
-	{:else}
+	{:else if searchTerm === '' && filteredMinorIcons.length === 0}
 		<IconsList icons={MINOR_ICONS} />
 	{/if}
 </div>
