@@ -24,12 +24,12 @@
 
 <MetaTags
 	title="Svelte Shopify Polaris Icons"
-	description="Svelte Shopify Polaris Icons"
+	description="A set of Shopify Polaris Icons to use in your Svelte project"
 	canonical="https://svelte-shopify-polaris-icons.vercel.app"
 	openGraph={{
 		url: 'https://svelte-shopify-polaris-icons.vercel.app',
 		title: 'Svelte Shopify Polaris Icons',
-		description: 'Svelte Shopify Polaris Icons',
+		description: 'A set of Shopify Polaris Icons to use in your Svelte project',
 		images: [
 			{
 				url: 'https://svelte-shopify-polaris-icons.vercel.app/cover-open-graph-1200-600.png',
@@ -45,7 +45,7 @@
 		site: '@site',
 		cardType: 'summary_large_image',
 		title: 'Svelte Shopify Polaris Icons',
-		description: 'Svelte Shopify Polaris Icons',
+		description: 'A set of Shopify Polaris Icons to use in your Svelte project',
 		image: 'https://svelte-shopify-polaris-icons.vercel.app/cover-open-graph-1200-600.png',
 		imageAlt: 'Svelte Shopify Polaris Icons cover'
 	}}
