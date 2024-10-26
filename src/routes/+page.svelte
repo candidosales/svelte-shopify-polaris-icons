@@ -2,8 +2,6 @@
 	import IconsList from '../components/IconsList.svelte';
 	import { MAJOR_ICONS, MINOR_ICONS } from '../data/icons';
 	import Hero from '../components/Hero.svelte';
-	import AbandonedCartFilledMajor from '$lib/AbandonedCartFilledMajor.svelte';
-	import AbandonedCartMajor from '$lib/AbandonedCartMajor.svelte';
 
 	// Query results
 	let filteredMajorIcons: App.Icon[] = $state([]);
