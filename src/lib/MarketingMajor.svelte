@@ -1,4 +1,3 @@
-<!-- @migration-task Error while migrating Svelte code: $$props is used together with named props in a way that cannot be automatically migrated. -->
 
 <script lang="ts">
 	import { twMerge } from 'tailwind-merge';
@@ -6,29 +5,18 @@
 	let {
 		size = 'md',
 		role = 'img',
-		ariaLabel = 'add code',
+		ariaLabel = 'marketing',
 		class: klass,
 		...rest
 	}: App.IconProps = $props();
-	export let ariaLabel = 'marketing';
 </script>
 
 <svg
-	xmlns="http://www.w3.org/2000/svg"
-	fill="currentColor"
-	{...rest}
-	class={twMerge('shrink-0', ICON_SIZES[size], klass)}
-	{role}
-	aria-label={ariaLabel}
-	viewBox="0 0 20 20"
-	><path
-		d="M4.75 10a5.25 5.25 0 0 1 10.5 0 .75.75 0 0 0 1.5 0 6.75 6.75 0 1 0-6.75 6.75.75.75 0 0 0 0-1.5 5.25 5.25 0 0 1-5.25-5.25Z"
-		fill="#5C5F62"
-	/><path
-		d="M11.537 9.805a.75.75 0 0 0 1.486-.208 3 3 0 1 0-3.492 3.372.75.75 0 1 0 .26-1.478 1.5 1.5 0 1 1 1.746-1.686Z"
-		fill="#5C5F62"
-	/><path
-		d="M11.61 10.973a.5.5 0 0 0-.637.638l2.121 6.01a.5.5 0 0 0 .871.135l1.172-1.558 1.038 1.037a.5.5 0 0 0 .707 0l.353-.353a.5.5 0 0 0 0-.707l-1.037-1.038 1.558-1.171a.5.5 0 0 0-.135-.872l-6.01-2.12Z"
-		fill="#5C5F62"
-	/></svg
->
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    {...rest}
+    class={twMerge('shrink-0', ICON_SIZES[size], klass)}
+    {role}
+    aria-label={ariaLabel}
+    viewBox="0 0 20 20"
+><path d="M4.75 10a5.25 5.25 0 0 1 10.5 0 .75.75 0 0 0 1.5 0 6.75 6.75 0 1 0-6.75 6.75.75.75 0 0 0 0-1.5 5.25 5.25 0 0 1-5.25-5.25Z" fill="#5C5F62"/><path d="M11.537 9.805a.75.75 0 0 0 1.486-.208 3 3 0 1 0-3.492 3.372.75.75 0 1 0 .26-1.478 1.5 1.5 0 1 1 1.746-1.686Z" fill="#5C5F62"/><path d="M11.61 10.973a.5.5 0 0 0-.637.638l2.121 6.01a.5.5 0 0 0 .871.135l1.172-1.558 1.038 1.037a.5.5 0 0 0 .707 0l.353-.353a.5.5 0 0 0 0-.707l-1.037-1.038 1.558-1.171a.5.5 0 0 0-.135-.872l-6.01-2.12Z" fill="#5C5F62"/></svg>

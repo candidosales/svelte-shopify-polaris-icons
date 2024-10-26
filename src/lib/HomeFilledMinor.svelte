@@ -1,4 +1,3 @@
-<!-- @migration-task Error while migrating Svelte code: $$props is used together with named props in a way that cannot be automatically migrated. -->
 
 <script lang="ts">
 	import { twMerge } from 'tailwind-merge';
@@ -6,23 +5,18 @@
 	let {
 		size = 'md',
 		role = 'img',
-		ariaLabel = 'add code',
+		ariaLabel = 'home filled',
 		class: klass,
 		...rest
 	}: App.IconProps = $props();
-	export let ariaLabel = 'home filled';
 </script>
 
 <svg
-	xmlns="http://www.w3.org/2000/svg"
-	fill="currentColor"
-	{...rest}
-	class={twMerge('shrink-0', ICON_SIZES[size], klass)}
-	{role}
-	aria-label={ariaLabel}
-	viewBox="0 0 20 20"
-	><path
-		d="M14 16h-2a1 1 0 0 1-1-1v-2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v2.5a1 1 0 0 1-1 1h-2a2 2 0 0 1-2-2v-4.257a3 3 0 0 1 .879-2.122l3.707-3.707a2 2 0 0 1 2.828 0l3.707 3.707a3 3 0 0 1 .879 2.122v4.257a2 2 0 0 1-2 2Z"
-		fill="#5C5F62"
-	/></svg
->
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    {...rest}
+    class={twMerge('shrink-0', ICON_SIZES[size], klass)}
+    {role}
+    aria-label={ariaLabel}
+    viewBox="0 0 20 20"
+><path d="M14 16h-2a1 1 0 0 1-1-1v-2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v2.5a1 1 0 0 1-1 1h-2a2 2 0 0 1-2-2v-4.257a3 3 0 0 1 .879-2.122l3.707-3.707a2 2 0 0 1 2.828 0l3.707 3.707a3 3 0 0 1 .879 2.122v4.257a2 2 0 0 1-2 2Z" fill="#5C5F62"/></svg>

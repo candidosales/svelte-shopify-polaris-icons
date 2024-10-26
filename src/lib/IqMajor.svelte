@@ -1,4 +1,3 @@
-<!-- @migration-task Error while migrating Svelte code: $$props is used together with named props in a way that cannot be automatically migrated. -->
 
 <script lang="ts">
 	import { twMerge } from 'tailwind-merge';
@@ -6,28 +5,18 @@
 	let {
 		size = 'md',
 		role = 'img',
-		ariaLabel = 'add code',
+		ariaLabel = 'iq',
 		class: klass,
 		...rest
 	}: App.IconProps = $props();
-	export let ariaLabel = 'iq';
 </script>
 
 <svg
-	xmlns="http://www.w3.org/2000/svg"
-	fill="currentColor"
-	{...rest}
-	class={twMerge('shrink-0', ICON_SIZES[size], klass)}
-	{role}
-	aria-label={ariaLabel}
-	viewBox="0 0 20 20"
-	><path d="M14.5 5.25a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="#5C5F62" /><path
-		fill-rule="evenodd"
-		d="M10.128 12.5h-2.128a4.5 4.5 0 0 1-4.5-4.5v-.25a4.25 4.25 0 0 1 4.25-4.25h4a.75.75 0 0 1 0 1.5h-4a2.75 2.75 0 0 0-2.75 2.75v.25a3 3 0 0 0 3 3h2.128a2.251 2.251 0 1 1 0 1.5Zm1.372-.75a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"
-		fill="#5C5F62"
-	/><path
-		fill-rule="evenodd"
-		d="M12.25 16.25a4.5 4.5 0 1 0 0-9h-2.128a2.251 2.251 0 1 0 0 1.5h2.128a3 3 0 1 1 0 6h-3.75a.75.75 0 0 0 0 1.5h3.75Zm-4.25-9a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Z"
-		fill="#5C5F62"
-	/><path d="M6.75 15.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" fill="#5C5F62" /></svg
->
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    {...rest}
+    class={twMerge('shrink-0', ICON_SIZES[size], klass)}
+    {role}
+    aria-label={ariaLabel}
+    viewBox="0 0 20 20"
+><path d="M14.5 5.25a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="#5C5F62"/><path fill-rule="evenodd" d="M10.128 12.5h-2.128a4.5 4.5 0 0 1-4.5-4.5v-.25a4.25 4.25 0 0 1 4.25-4.25h4a.75.75 0 0 1 0 1.5h-4a2.75 2.75 0 0 0-2.75 2.75v.25a3 3 0 0 0 3 3h2.128a2.251 2.251 0 1 1 0 1.5Zm1.372-.75a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z" fill="#5C5F62"/><path fill-rule="evenodd" d="M12.25 16.25a4.5 4.5 0 1 0 0-9h-2.128a2.251 2.251 0 1 0 0 1.5h2.128a3 3 0 1 1 0 6h-3.75a.75.75 0 0 0 0 1.5h3.75Zm-4.25-9a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Z" fill="#5C5F62"/><path d="M6.75 15.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" fill="#5C5F62"/></svg>
