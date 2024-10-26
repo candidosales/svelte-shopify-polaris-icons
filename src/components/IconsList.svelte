@@ -1,9 +1,12 @@
 <script lang="ts">
-	export let icons: App.Icon[] = [];
-
-	import { Drawer, CloseButton } from 'flowbite-svelte';
+	// import { Drawer, CloseButton } from 'flowbite-svelte';
 	import { sineIn } from 'svelte/easing';
-	let hiddenDrawer = true;
+	interface Props {
+		icons?: App.Icon[];
+	}
+
+	let { icons = [] }: Props = $props();
+	let hiddenDrawer = $state(true);
 	let transitionParams = {
 		x: 320,
 		duration: 200,
@@ -14,7 +17,7 @@
 	{{iconNameImport}}
 } from 'svelte-shopify-polaris-icons';`;
 
-	let templateImport = '';
+	let templateImport = $state('');
 
 	function openDrawer(iconNameImport: string): void {
 		hiddenDrawer = false;
@@ -27,15 +30,15 @@
 	{#each icons as i}
 		<button
 			class="flex flex-row text-left p-4 border border-solid border-slate-200 rounded-md cursor-pointer"
-			on:click={() => openDrawer(i.iconNameImport)}
+			onclick={() => openDrawer(i.iconNameImport)}
 		>
-			<svelte:component this={i.icon} class="mr-2" />
+			<i.icon class="mr-2" />
 			<p class="text-sm mt-0 mb-0 text-slate-800">{i.name}</p>
 		</button>
 	{/each}
 </div>
 
-<Drawer
+<!-- <Drawer
 	placement="right"
 	transitionType="fly"
 	{transitionParams}
@@ -59,4 +62,4 @@
 		>:
 	</p>
 	<pre>{templateImport}</pre>
-</Drawer>
+</Drawer> -->

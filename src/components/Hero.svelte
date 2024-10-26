@@ -1,7 +1,11 @@
 <script lang="ts">
 	import Github from './Github.svelte';
 
-	export let totalIcons = 0;
+	interface Props {
+		totalIcons?: number;
+	}
+
+	let { totalIcons = 0 }: Props = $props();
 </script>
 
 <div class="flex flex-col-reverse md:flex-row">
@@ -26,5 +30,5 @@
 			>
 		</div>
 	</div>
-	<img class="m-0" width="616" height="308" src="/svelte-shopify.png" />
+	<img class="m-0" width="616" height="308" alt="Svelte Shopify" src="/svelte-shopify.png" />
 </div>
