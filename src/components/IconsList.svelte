@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import { Drawer, CloseButton } from 'flowbite-svelte';
+	import { Drawer, CloseButton } from 'flowbite-svelte';
 	import { sineIn } from 'svelte/easing';
 	interface Props {
 		icons?: App.Icon[];
@@ -38,7 +38,7 @@
 	{/each}
 </div>
 
-<!-- <Drawer
+<Drawer
 	placement="right"
 	transitionType="fly"
 	{transitionParams}
@@ -62,4 +62,4 @@
 		>:
 	</p>
 	<pre>{templateImport}</pre>
-</Drawer> -->
+</Drawer>
