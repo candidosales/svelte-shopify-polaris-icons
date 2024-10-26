@@ -1,24 +1,22 @@
 
 <script lang="ts">
-    import { twMerge } from 'tailwind-merge';
-    export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
-    export let role: string = 'img';
-    const sizes = {
-        xs: 'w-3 h-3',
-        sm: 'w-4 h-4',
-        md: 'w-5 h-5',
-        lg: 'w-6 h-6',
-        xl: 'w-8 h-8'
-    };
-    export let ariaLabel = 'marketing';
+	import { twMerge } from 'tailwind-merge';
+	import { ICON_SIZES } from '../constants';
+	let {
+		size = 'md',
+		role = 'img',
+		ariaLabel = 'marketing',
+		class: klass,
+		...rest
+	}: App.IconProps = $props();
 </script>
 
 <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="currentColor"
-    {...$$restProps}
-    class={twMerge('shrink-0', sizes[size], $$props.class)}
+    {...rest}
+    class={twMerge('shrink-0', ICON_SIZES[size], klass)}
     {role}
     aria-label={ariaLabel}
     viewBox="0 0 20 20"
-><path d="M4.75 10a5.25 5.25 0 0 1 10.5 0 .75.75 0 0 0 1.5 0 6.75 6.75 0 1 0-6.75 6.75.75.75 0 0 0 0-1.5 5.25 5.25 0 0 1-5.25-5.25Z" fill="#5C5F62"/><path d="M11.537 9.805a.75.75 0 0 0 1.486-.208 3 3 0 1 0-3.492 3.372.75.75 0 0 0 .26-1.478 1.5 1.5 0 1 1 1.746-1.686Z" fill="#5C5F62"/><path d="M11.611 10.973a.5.5 0 0 0-.638.638l2.121 6.01a.5.5 0 0 0 .871.135l1.172-1.558 1.038 1.037a.5.5 0 0 0 .707 0l.353-.353a.5.5 0 0 0 0-.707l-1.037-1.038 1.558-1.172a.5.5 0 0 0-.135-.87l-6.01-2.122Z" fill="#5C5F62"/></svg>
+><path d="M4.75 10a5.25 5.25 0 0 1 10.5 0 .75.75 0 0 0 1.5 0 6.75 6.75 0 1 0-6.75 6.75.75.75 0 0 0 0-1.5 5.25 5.25 0 0 1-5.25-5.25Z"/><path d="M11.537 9.805a.75.75 0 0 0 1.486-.208 3 3 0 1 0-3.492 3.372.75.75 0 0 0 .26-1.478 1.5 1.5 0 1 1 1.746-1.686Z"/><path d="M11.611 10.973a.5.5 0 0 0-.638.638l2.121 6.01a.5.5 0 0 0 .871.135l1.172-1.558 1.038 1.037a.5.5 0 0 0 .707 0l.353-.353a.5.5 0 0 0 0-.707l-1.037-1.038 1.558-1.172a.5.5 0 0 0-.135-.87l-6.01-2.122Z"/></svg>

@@ -1,24 +1,22 @@
 
 <script lang="ts">
-    import { twMerge } from 'tailwind-merge';
-    export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
-    export let role: string = 'img';
-    const sizes = {
-        xs: 'w-3 h-3',
-        sm: 'w-4 h-4',
-        md: 'w-5 h-5',
-        lg: 'w-6 h-6',
-        xl: 'w-8 h-8'
-    };
-    export let ariaLabel = 'organization';
+	import { twMerge } from 'tailwind-merge';
+	import { ICON_SIZES } from '../constants';
+	let {
+		size = 'md',
+		role = 'img',
+		ariaLabel = 'organization',
+		class: klass,
+		...rest
+	}: App.IconProps = $props();
 </script>
 
 <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="currentColor"
-    {...$$restProps}
-    class={twMerge('shrink-0', sizes[size], $$props.class)}
+    {...rest}
+    class={twMerge('shrink-0', ICON_SIZES[size], klass)}
     {role}
     aria-label={ariaLabel}
     viewBox="0 0 20 20"
-><path d="M6.75 9a.75.75 0 0 0 0 1.5h.5a.75.75 0 0 0 0-1.5h-.5Z" fill="#5C5F62"/><path d="M8.75 9.75a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z" fill="#5C5F62"/><path d="M9.5 6.5a.75.75 0 0 0 0 1.5h.5a.75.75 0 0 0 0-1.5h-.5Z" fill="#5C5F62"/><path d="M6 7.25a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z" fill="#5C5F62"/><path fill-rule="evenodd" d="M3.5 5.25c0-.966.784-1.75 1.75-1.75h6.25c.966 0 1.75.784 1.75 1.75v1.75h1.5c.966 0 1.75.784 1.75 1.75v6a1.75 1.75 0 0 1-1.75 1.75h-9.5a1.75 1.75 0 0 1-1.75-1.75v-9.5Zm4.25 9.75h1.25v-1.25a.25.25 0 0 0-.25-.25h-.75a.25.25 0 0 0-.25.25v1.25Zm2.75 0v-1.25a1.75 1.75 0 0 0-1.75-1.75h-.75a1.75 1.75 0 0 0-1.75 1.75v1.25h-1a.25.25 0 0 1-.25-.25v-9.5a.25.25 0 0 1 .25-.25h6.25a.25.25 0 0 1 .25.25v9.5a.25.25 0 0 1-.25.25h-1Zm2.75-.25v-6.25h1.5a.25.25 0 0 1 .25.25v6a.25.25 0 0 1-.25.25h-1.518a1.72 1.72 0 0 0 .018-.25Z" fill="#5C5F62"/></svg>
+><path d="M6.75 9a.75.75 0 0 0 0 1.5h.5a.75.75 0 0 0 0-1.5h-.5Z"/><path d="M8.75 9.75a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z"/><path d="M9.5 6.5a.75.75 0 0 0 0 1.5h.5a.75.75 0 0 0 0-1.5h-.5Z"/><path d="M6 7.25a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z"/><path fill-rule="evenodd" d="M3.5 5.25c0-.966.784-1.75 1.75-1.75h6.25c.966 0 1.75.784 1.75 1.75v1.75h1.5c.966 0 1.75.784 1.75 1.75v6a1.75 1.75 0 0 1-1.75 1.75h-9.5a1.75 1.75 0 0 1-1.75-1.75v-9.5Zm4.25 9.75h1.25v-1.25a.25.25 0 0 0-.25-.25h-.75a.25.25 0 0 0-.25.25v1.25Zm2.75 0v-1.25a1.75 1.75 0 0 0-1.75-1.75h-.75a1.75 1.75 0 0 0-1.75 1.75v1.25h-1a.25.25 0 0 1-.25-.25v-9.5a.25.25 0 0 1 .25-.25h6.25a.25.25 0 0 1 .25.25v9.5a.25.25 0 0 1-.25.25h-1Zm2.75-.25v-6.25h1.5a.25.25 0 0 1 .25.25v6a.25.25 0 0 1-.25.25h-1.518a1.72 1.72 0 0 0 .018-.25Z"/></svg>

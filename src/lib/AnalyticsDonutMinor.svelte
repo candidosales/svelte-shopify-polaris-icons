@@ -1,24 +1,22 @@
 
 <script lang="ts">
-    import { twMerge } from 'tailwind-merge';
-    export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
-    export let role: string = 'img';
-    const sizes = {
-        xs: 'w-3 h-3',
-        sm: 'w-4 h-4',
-        md: 'w-5 h-5',
-        lg: 'w-6 h-6',
-        xl: 'w-8 h-8'
-    };
-    export let ariaLabel = 'analytics donut';
+	import { twMerge } from 'tailwind-merge';
+	import { ICON_SIZES } from '../constants';
+	let {
+		size = 'md',
+		role = 'img',
+		ariaLabel = 'analytics donut',
+		class: klass,
+		...rest
+	}: App.IconProps = $props();
 </script>
 
 <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="currentColor"
-    {...$$restProps}
-    class={twMerge('shrink-0', sizes[size], $$props.class)}
+    {...rest}
+    class={twMerge('shrink-0', ICON_SIZES[size], klass)}
     {role}
     aria-label={ariaLabel}
     viewBox="0 0 20 20"
-><path fill-rule="evenodd" d="M17.938 9.003c.068.547-.386.997-.938.997a7 7 0 1 1-7-7v1.5a5.5 5.5 0 1 0 5.5 5.5h-2.5a3 3 0 1 1-3-3v-4c0-.552.45-1.007.997-.938a8 8 0 0 1 6.94 6.94Zm-1.613-.503a6.503 6.503 0 0 0-4.825-4.825v3.612a3.099 3.099 0 0 1 1.213 1.213h3.612Zm-6.325 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#5C5F62"/></svg>
+><path fill-rule="evenodd" d="M17.938 9.003c.068.547-.386.997-.938.997a7 7 0 1 1-7-7v1.5a5.5 5.5 0 1 0 5.5 5.5h-2.5a3 3 0 1 1-3-3v-4c0-.552.45-1.007.997-.938a8 8 0 0 1 6.94 6.94Zm-1.613-.503a6.503 6.503 0 0 0-4.825-4.825v3.612a3.099 3.099 0 0 1 1.213 1.213h3.612Zm-6.325 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"/></svg>

@@ -1,12 +1,19 @@
 <script>
+	import { page } from '$app/stores';
 	import '../app.scss';
+	import { MetaTags, deepMerge } from 'svelte-meta-tags';
+
+	/**
+	 * @typedef {Object} Props
+	 * @property {import('svelte').Snippet} [children]
+	 */
+
+	/** @type {Props} */
+	let { data, children } = $props();
+
+	let metaTags = $derived(deepMerge(data.baseMetaTags, $page.data.pageMetaTags));
 </script>
 
-<head>
-	<title>Svelte Shopify Polaris Icons</title>
-	<meta name="description" content="A set of Shopify Polaris Icons to use in your Svelte project" />
-	<meta name="robots" content="index,follow" />
-	<meta name="googlebot" content="index,follow" />
-	<meta charset="utf-8" />
-</head>
-<slot />
+<MetaTags {...metaTags} />
+
+{@render children?.()}

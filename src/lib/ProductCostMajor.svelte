@@ -1,24 +1,22 @@
 
 <script lang="ts">
-    import { twMerge } from 'tailwind-merge';
-    export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
-    export let role: string = 'img';
-    const sizes = {
-        xs: 'w-3 h-3',
-        sm: 'w-4 h-4',
-        md: 'w-5 h-5',
-        lg: 'w-6 h-6',
-        xl: 'w-8 h-8'
-    };
-    export let ariaLabel = 'product cost';
+	import { twMerge } from 'tailwind-merge';
+	import { ICON_SIZES } from '../constants';
+	let {
+		size = 'md',
+		role = 'img',
+		ariaLabel = 'product cost',
+		class: klass,
+		...rest
+	}: App.IconProps = $props();
 </script>
 
 <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="currentColor"
-    {...$$restProps}
-    class={twMerge('shrink-0', sizes[size], $$props.class)}
+    {...rest}
+    class={twMerge('shrink-0', ICON_SIZES[size], klass)}
     {role}
     aria-label={ariaLabel}
     viewBox="0 0 20 20"
-><path d="M8.575 4.649a3.75 3.75 0 0 1 2.7-1.149h1.975a3.25 3.25 0 0 1 3.25 3.25v2.5a.75.75 0 0 1-1.5 0v-2.5a1.75 1.75 0 0 0-1.75-1.75h-1.974a2.25 2.25 0 0 0-1.62.69l-4.254 4.417a1.25 1.25 0 0 0 .016 1.75l2.898 2.898a1 1 0 0 0 1.4.014l.451-.434a.75.75 0 1 1 1.04 1.08l-.45.434a2.5 2.5 0 0 1-3.502-.033l-2.898-2.898a2.75 2.75 0 0 1-.036-3.852l4.254-4.417Z" fill="#5C5F62"/><path d="M14 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" fill="#5C5F62"/><path d="M13.25 11.357a1.876 1.876 0 0 0 .625 3.643h.75a.375.375 0 0 1 0 .75h-1.875a.75.75 0 0 0 0 1.5h.5v.25a.75.75 0 0 0 1.5 0v-.254a1.875 1.875 0 0 0-.125-3.746h-.75a.375.375 0 0 1 0-.75h1.875a.75.75 0 0 0 0-1.5h-1v-.25a.75.75 0 0 0-1.5 0v.357Z" fill="#5C5F62"/></svg>
+><path d="M8.575 4.649a3.75 3.75 0 0 1 2.7-1.149h1.975a3.25 3.25 0 0 1 3.25 3.25v2.5a.75.75 0 0 1-1.5 0v-2.5a1.75 1.75 0 0 0-1.75-1.75h-1.974a2.25 2.25 0 0 0-1.62.69l-4.254 4.417a1.25 1.25 0 0 0 .016 1.75l2.898 2.898a1 1 0 0 0 1.4.014l.451-.434a.75.75 0 1 1 1.04 1.08l-.45.434a2.5 2.5 0 0 1-3.502-.033l-2.898-2.898a2.75 2.75 0 0 1-.036-3.852l4.254-4.417Z"/><path d="M14 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/><path d="M13.25 11.357a1.876 1.876 0 0 0 .625 3.643h.75a.375.375 0 0 1 0 .75h-1.875a.75.75 0 0 0 0 1.5h.5v.25a.75.75 0 0 0 1.5 0v-.254a1.875 1.875 0 0 0-.125-3.746h-.75a.375.375 0 0 1 0-.75h1.875a.75.75 0 0 0 0-1.5h-1v-.25a.75.75 0 0 0-1.5 0v.357Z"/></svg>

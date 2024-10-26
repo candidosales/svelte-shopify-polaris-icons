@@ -1,13 +1,12 @@
 <script lang="ts">
-	import { MetaTags } from 'svelte-meta-tags';
 	import IconsList from '../components/IconsList.svelte';
 	import { MAJOR_ICONS, MINOR_ICONS } from '../data/icons';
 	import Hero from '../components/Hero.svelte';
 
 	// Query results
-	let filteredMajorIcons: App.Icon[] = [];
-	let filteredMinorIcons: App.Icon[] = [];
-	let searchTerm = '';
+	let filteredMajorIcons: App.Icon[] = $state([]);
+	let filteredMinorIcons: App.Icon[] = $state([]);
+	let searchTerm = $state('');
 
 	const searchBooks = () => {
 		filteredMajorIcons = MAJOR_ICONS.filter((majorIcon) => {
@@ -22,37 +21,8 @@
 	};
 </script>
 
-<MetaTags
-	title="Svelte Shopify Polaris Icons"
-	description="A set of Shopify Polaris Icons to use in your Svelte project"
-	canonical="https://svelte-shopify-polaris-icons.vercel.app"
-	openGraph={{
-		url: 'https://svelte-shopify-polaris-icons.vercel.app',
-		title: 'Svelte Shopify Polaris Icons',
-		description: 'A set of Shopify Polaris Icons to use in your Svelte project',
-		images: [
-			{
-				url: 'https://svelte-shopify-polaris-icons.vercel.app/cover-open-graph-1200-600.png',
-				width: 1200,
-				height: 600,
-				alt: 'Svelte Shopify Polaris Icons cover'
-			}
-		],
-		site_name: 'Svelte Shopify Polaris Icons'
-	}}
-	twitter={{
-		handle: '@candidosales',
-		site: '@site',
-		cardType: 'summary_large_image',
-		title: 'Svelte Shopify Polaris Icons',
-		description: 'A set of Shopify Polaris Icons to use in your Svelte project',
-		image: 'https://svelte-shopify-polaris-icons.vercel.app/cover-open-graph-1200-600.png',
-		imageAlt: 'Svelte Shopify Polaris Icons cover'
-	}}
-/>
 <div class="relative max-w-7xl mx-auto px-4 sm:px-6 mt-20 prose">
 	<Hero totalIcons={MAJOR_ICONS.length + MINOR_ICONS.length} />
-
 	<div
 		class="pointer-events-none sticky top-0 z-50 -mb-10 overflow-hidden pb-10 sm:-mb-11 sm:pb-11 md:-mb-12 md:pb-12"
 	>
@@ -69,7 +39,7 @@
 							class="border-0 focus:border-0 hover:border-0 focus:shadow-none block w-full appearance-none rounded-lg bg-transparent py-4 pl-9 pr-4 text-base text-slate-900 transition placeholder:text-slate-400 focus:outline-none sm:text-[0.8125rem] sm:leading-6 [&amp;::-webkit-search-cancel-button]:appearance-none [&amp;::-webkit-search-decoration]:appearance-none [&amp;::-webkit-search-results-button]:appearance-none [&amp;::-webkit-search-results-decoration]:appearance-none"
 							autocomplete="off"
 							bind:value={searchTerm}
-							on:input={searchBooks}
+							oninput={searchBooks}
 						/><svg
 							viewBox="0 0 20 20"
 							aria-hidden="true"
