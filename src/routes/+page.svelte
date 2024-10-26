@@ -2,6 +2,8 @@
 	import IconsList from '../components/IconsList.svelte';
 	import { MAJOR_ICONS, MINOR_ICONS } from '../data/icons';
 	import Hero from '../components/Hero.svelte';
+	import AbandonedCartFilledMajor from '$lib/AbandonedCartFilledMajor.svelte';
+	import AbandonedCartMajor from '$lib/AbandonedCartMajor.svelte';
 
 	// Query results
 	let filteredMajorIcons: App.Icon[] = $state([]);
@@ -23,7 +25,6 @@
 
 <div class="relative max-w-7xl mx-auto px-4 sm:px-6 mt-20 prose">
 	<Hero totalIcons={MAJOR_ICONS.length + MINOR_ICONS.length} />
-
 	<div
 		class="pointer-events-none sticky top-0 z-50 -mb-10 overflow-hidden pb-10 sm:-mb-11 sm:pb-11 md:-mb-12 md:pb-12"
 	>
