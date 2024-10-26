@@ -1,25 +1,29 @@
 <!-- @migration-task Error while migrating Svelte code: $$props is used together with named props in a way that cannot be automatically migrated. -->
 
 <script lang="ts">
-    import { twMerge } from 'tailwind-merge';
-    export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
-    export let role: string = 'img';
-    const sizes = {
-        xs: 'w-3 h-3',
-        sm: 'w-4 h-4',
-        md: 'w-5 h-5',
-        lg: 'w-6 h-6',
-        xl: 'w-8 h-8'
-    };
-    export let ariaLabel = 'attachment filled';
+	import { twMerge } from 'tailwind-merge';
+	import { ICON_SIZES } from '../constants';
+	let {
+		size = 'md',
+		role = 'img',
+		ariaLabel = 'add code',
+		class: klass,
+		...rest
+	}: App.IconProps = $props();
+	export let ariaLabel = 'attachment filled';
 </script>
 
 <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
-    {...$$restProps}
-    class={twMerge('shrink-0', sizes[size], $$props.class)}
-    {role}
-    aria-label={ariaLabel}
-    viewBox="0 0 20 20"
-><path fill-rule="evenodd" d="M4.666 9.677a4 4 0 0 0 0 5.657l.147.146a3.793 3.793 0 0 0 5.364 0 1 1 0 0 0-1.414-1.414c-.7.7-1.836.7-2.536 0l-.146-.146a2 2 0 0 1 0-2.829l5.015-5.015a1.993 1.993 0 1 1 2.819 2.82l-2.286 2.285a.567.567 0 1 1-.801-.801l2.25-2.25a1 1 0 1 0-1.414-1.415l-2.25 2.25a2.567 2.567 0 0 0 3.63 3.63l2.285-2.285a3.993 3.993 0 1 0-5.648-5.648l-5.015 5.015Z" fill="#5C5F62"/></svg>
+	xmlns="http://www.w3.org/2000/svg"
+	fill="currentColor"
+	{...rest}
+	class={twMerge('shrink-0', ICON_SIZES[size], klass)}
+	{role}
+	aria-label={ariaLabel}
+	viewBox="0 0 20 20"
+	><path
+		fill-rule="evenodd"
+		d="M4.666 9.677a4 4 0 0 0 0 5.657l.147.146a3.793 3.793 0 0 0 5.364 0 1 1 0 0 0-1.414-1.414c-.7.7-1.836.7-2.536 0l-.146-.146a2 2 0 0 1 0-2.829l5.015-5.015a1.993 1.993 0 1 1 2.819 2.82l-2.286 2.285a.567.567 0 1 1-.801-.801l2.25-2.25a1 1 0 1 0-1.414-1.415l-2.25 2.25a2.567 2.567 0 0 0 3.63 3.63l2.285-2.285a3.993 3.993 0 1 0-5.648-5.648l-5.015 5.015Z"
+		fill="#5C5F62"
+	/></svg
+>

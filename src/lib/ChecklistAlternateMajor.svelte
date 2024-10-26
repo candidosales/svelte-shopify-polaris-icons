@@ -1,25 +1,35 @@
 <!-- @migration-task Error while migrating Svelte code: $$props is used together with named props in a way that cannot be automatically migrated. -->
 
 <script lang="ts">
-    import { twMerge } from 'tailwind-merge';
-    export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
-    export let role: string = 'img';
-    const sizes = {
-        xs: 'w-3 h-3',
-        sm: 'w-4 h-4',
-        md: 'w-5 h-5',
-        lg: 'w-6 h-6',
-        xl: 'w-8 h-8'
-    };
-    export let ariaLabel = 'checklist alternate';
+	import { twMerge } from 'tailwind-merge';
+	import { ICON_SIZES } from '../constants';
+	let {
+		size = 'md',
+		role = 'img',
+		ariaLabel = 'add code',
+		class: klass,
+		...rest
+	}: App.IconProps = $props();
+	export let ariaLabel = 'checklist alternate';
 </script>
 
 <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
-    {...$$restProps}
-    class={twMerge('shrink-0', sizes[size], $$props.class)}
-    {role}
-    aria-label={ariaLabel}
-    viewBox="0 0 20 20"
-><path d="M8.75 10.25a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" fill="#5C5F62"/><path d="M7.75 14.25a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="#5C5F62"/><path d="M9.75 10.25a.75.75 0 0 1 .75-.75h2a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1-.75-.75Z" fill="#5C5F62"/><path d="M10.5 12.5a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5h-2Z" fill="#5C5F62"/><path fill-rule="evenodd" d="M6.515 4.75a2 2 0 0 1 1.985-1.75h3a2 2 0 0 1 1.985 1.75h.265a2.25 2.25 0 0 1 2.25 2.25v7.75a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-7.75a2.25 2.25 0 0 1 2.25-2.25h.265Zm1.985-.25h3a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Zm-2.25 1.75h.265a2 2 0 0 0 1.985 1.75h3a2 2 0 0 0 1.985-1.75h.265a.75.75 0 0 1 .75.75v7.75a.75.75 0 0 1-.75.75h-7.5a.75.75 0 0 1-.75-.75v-7.75a.75.75 0 0 1 .75-.75Z" fill="#5C5F62"/></svg>
+	xmlns="http://www.w3.org/2000/svg"
+	fill="currentColor"
+	{...rest}
+	class={twMerge('shrink-0', ICON_SIZES[size], klass)}
+	{role}
+	aria-label={ariaLabel}
+	viewBox="0 0 20 20"
+	><path d="M8.75 10.25a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" fill="#5C5F62" /><path
+		d="M7.75 14.25a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
+		fill="#5C5F62"
+	/><path
+		d="M9.75 10.25a.75.75 0 0 1 .75-.75h2a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1-.75-.75Z"
+		fill="#5C5F62"
+	/><path d="M10.5 12.5a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5h-2Z" fill="#5C5F62" /><path
+		fill-rule="evenodd"
+		d="M6.515 4.75a2 2 0 0 1 1.985-1.75h3a2 2 0 0 1 1.985 1.75h.265a2.25 2.25 0 0 1 2.25 2.25v7.75a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-7.75a2.25 2.25 0 0 1 2.25-2.25h.265Zm1.985-.25h3a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Zm-2.25 1.75h.265a2 2 0 0 0 1.985 1.75h3a2 2 0 0 0 1.985-1.75h.265a.75.75 0 0 1 .75.75v7.75a.75.75 0 0 1-.75.75h-7.5a.75.75 0 0 1-.75-.75v-7.75a.75.75 0 0 1 .75-.75Z"
+		fill="#5C5F62"
+	/></svg
+>

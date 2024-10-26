@@ -1,25 +1,29 @@
 <!-- @migration-task Error while migrating Svelte code: $$props is used together with named props in a way that cannot be automatically migrated. -->
 
 <script lang="ts">
-    import { twMerge } from 'tailwind-merge';
-    export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
-    export let role: string = 'img';
-    const sizes = {
-        xs: 'w-3 h-3',
-        sm: 'w-4 h-4',
-        md: 'w-5 h-5',
-        lg: 'w-6 h-6',
-        xl: 'w-8 h-8'
-    };
-    export let ariaLabel = 'images';
+	import { twMerge } from 'tailwind-merge';
+	import { ICON_SIZES } from '../constants';
+	let {
+		size = 'md',
+		role = 'img',
+		ariaLabel = 'add code',
+		class: klass,
+		...rest
+	}: App.IconProps = $props();
+	export let ariaLabel = 'images';
 </script>
 
 <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
-    {...$$restProps}
-    class={twMerge('shrink-0', sizes[size], $$props.class)}
-    {role}
-    aria-label={ariaLabel}
-    viewBox="0 0 20 20"
-><path d="M10.75 10.25a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="#5C5F62"/><path fill-rule="evenodd" d="M6.01 6.01a2.75 2.75 0 0 1 2.74-2.51h5a2.75 2.75 0 0 1 2.75 2.75v5a2.75 2.75 0 0 1-2.51 2.74 2.75 2.75 0 0 1-2.74 2.51h-5a2.75 2.75 0 0 1-2.75-2.75v-5a2.75 2.75 0 0 1 2.51-2.74Zm-1.01 7.74v-.978l1.625-1.95a.25.25 0 0 1 .369-.017l3.226 3.225a.75.75 0 0 0 1.06 0l1.22-1.22v.94c0 .69-.56 1.25-1.25 1.25h-5c-.69 0-1.25-.56-1.25-1.25Zm7.5-5v1.94l-1.75 1.75-2.695-2.696a1.75 1.75 0 0 0-2.582.117l-.473.567v-1.678c0-.69.56-1.25 1.25-1.25h5c.69 0 1.25.56 1.25 1.25Zm-4.975-2.75h3.725a2.75 2.75 0 0 1 2.75 2.75v3.725c.57-.116 1-.62 1-1.225v-5c0-.69-.56-1.25-1.25-1.25h-5c-.605 0-1.11.43-1.225 1Z" fill="#5C5F62"/></svg>
+	xmlns="http://www.w3.org/2000/svg"
+	fill="currentColor"
+	{...rest}
+	class={twMerge('shrink-0', ICON_SIZES[size], klass)}
+	{role}
+	aria-label={ariaLabel}
+	viewBox="0 0 20 20"
+	><path d="M10.75 10.25a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="#5C5F62" /><path
+		fill-rule="evenodd"
+		d="M6.01 6.01a2.75 2.75 0 0 1 2.74-2.51h5a2.75 2.75 0 0 1 2.75 2.75v5a2.75 2.75 0 0 1-2.51 2.74 2.75 2.75 0 0 1-2.74 2.51h-5a2.75 2.75 0 0 1-2.75-2.75v-5a2.75 2.75 0 0 1 2.51-2.74Zm-1.01 7.74v-.978l1.625-1.95a.25.25 0 0 1 .369-.017l3.226 3.225a.75.75 0 0 0 1.06 0l1.22-1.22v.94c0 .69-.56 1.25-1.25 1.25h-5c-.69 0-1.25-.56-1.25-1.25Zm7.5-5v1.94l-1.75 1.75-2.695-2.696a1.75 1.75 0 0 0-2.582.117l-.473.567v-1.678c0-.69.56-1.25 1.25-1.25h5c.69 0 1.25.56 1.25 1.25Zm-4.975-2.75h3.725a2.75 2.75 0 0 1 2.75 2.75v3.725c.57-.116 1-.62 1-1.225v-5c0-.69-.56-1.25-1.25-1.25h-5c-.605 0-1.11.43-1.225 1Z"
+		fill="#5C5F62"
+	/></svg
+>
