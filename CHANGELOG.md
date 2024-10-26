@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.18](https://github.com/candidosales/svelte-shopify-polaris-icons/compare/v0.0.16...v0.0.18) (2024-10-26)
+
+
+### Features
+
+* added search, design improved ([ed4cffd](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/ed4cffd80fbab69e6c5a4a4ad30e413beaba0655))
+* improve font weight ([6d8b8f3](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/6d8b8f3b0f07e65e72c6c82f86f14f821823bbb1))
+* improve seo ([883ac36](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/883ac36e09a5f0e25590b5522615564faf1a89c0))
+* show how to import ([a76749f](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/a76749f520f2dac966c8c2a092ce0d135e6953cc))
+
+
+### Bug Fixes
+
+* canonical url ([4eadc5e](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/4eadc5ef14e864d144c03b040fb2d73e026fce45))
+* fix pnpm ([f298537](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/f298537eda006d410bebe495ca89bbd8ed63d9a1))
+* improve search ([4b8759b](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/4b8759b75fc91b6b97745670fd5c819eea5b21a8))
+* improved links ([a3c3c07](https://github.com/candidosales/svelte-shopify-polaris-icons/commit/a3c3c079280eb84ff70bf4e294f1344fe7184dca))
+
 ### [0.0.16](https://github.com/candidosales/svelte-shopify-polaris-icons/compare/v0.0.15...v0.0.16) (2023-07-27)
 
 
