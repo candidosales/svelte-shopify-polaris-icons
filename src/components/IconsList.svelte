@@ -6,7 +6,7 @@
 	}
 
 	let { icons = [] }: Props = $props();
-	let hiddenDrawer = $state(true);
+	let open = $state(false);
 	let transitionParams = {
 		x: 320,
 		duration: 200,
@@ -20,7 +20,7 @@
 	let templateImport = $state('');
 
 	function openDrawer(iconNameImport: string): void {
-		hiddenDrawer = false;
+		open = true;
 		templateImport = template.replace('{{iconNameImport}}', iconNameImport);
 		console.log(templateImport);
 	}
@@ -38,21 +38,15 @@
 	{/each}
 </div>
 
-<Drawer
-	placement="right"
-	transitionType="fly"
-	{transitionParams}
-	bind:hidden={hiddenDrawer}
-	id="sidebar1"
->
-	<div class="flex items-center">
+<Drawer placement="right" {transitionParams} bind:open id="sidebar1">
+	<div class="flex justify-between">
 		<h5
 			id="drawer-label"
 			class="inline-flex items-center text-base font-semibold text-gray-800 dark:text-gray-400"
 		>
 			How to import
 		</h5>
-		<CloseButton on:click={() => (hiddenDrawer = true)} class="mb-4 dark:text-white" />
+		<CloseButton onclick={() => (open = false)} class="mb-4 dark:text-white cursor-pointer" />
 	</div>
 	<p class="text-sm text-slate-600">
 		Import the icon from <a
