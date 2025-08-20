@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { Drawer, CloseButton } from 'flowbite-svelte';
+	import { Drawer, CloseButton, Clipboard, Tooltip } from 'flowbite-svelte';
+	import { CheckOutline, ClipboardCleanSolid } from 'flowbite-svelte-icons';
+
 	import { sineIn } from 'svelte/easing';
 	interface Props {
 		icons?: App.Icon[];
@@ -38,7 +40,7 @@
 	{/each}
 </div>
 
-<Drawer placement="right" {transitionParams} bind:open id="sidebar1">
+<Drawer placement="right" {transitionParams} bind:open id="sidebar1" class="w-xl">
 	<div class="flex justify-between">
 		<h5
 			id="drawer-label"
@@ -55,5 +57,13 @@
 			target="_blank">svelte-shopify-polaris-icons</a
 		>:
 	</p>
-	<pre>{templateImport}</pre>
+	<div class="flex w-full">
+		<pre class="w-full">{templateImport}</pre>
+		<Clipboard bind:value={templateImport} embedded class="cursor-pointer">
+			{#snippet children(success)}
+				<Tooltip isOpen={success}>{success ? 'Copied' : 'Copy to clipboard'}</Tooltip>
+				{#if success}<CheckOutline />{:else}<ClipboardCleanSolid />{/if}
+			{/snippet}
+		</Clipboard>
+	</div>
 </Drawer>
