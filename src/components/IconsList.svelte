@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Drawer, CloseButton, Clipboard, Tooltip } from 'flowbite-svelte';
+	import { Drawer, Clipboard, Tooltip } from 'flowbite-svelte';
 	import { CheckOutline, ClipboardCleanSolid } from 'flowbite-svelte-icons';
 
 	import { sineIn } from 'svelte/easing';
@@ -48,7 +48,6 @@
 		>
 			How to import
 		</h5>
-		<CloseButton onclick={() => (open = false)} class="mb-4 dark:text-white cursor-pointer" />
 	</div>
 	<p class="text-sm text-slate-600">
 		Import the icon from <a
