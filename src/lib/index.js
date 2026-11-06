@@ -1143,3 +1143,5 @@ export { default as WholesaleMajor } from './WholesaleMajor.svelte';
 export { default as WifiMajor } from './WifiMajor.svelte';
 
 export { default as YoutubeMinor } from './YoutubeMinor.svelte';
+
+export * from './constants';

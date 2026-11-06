@@ -1,6 +1,6 @@
 {
 	"name": "svelte-shopify-polaris-icons",
-	"version": "0.0.18",
+	"version": "0.0.19",
 	"description": "Svelte Shopify Polaris Icons",
 	"author": {
 		"name": "Candido Sales Gomes",
@@ -20,10 +20,10 @@
 		"test:unit": "vp test",
 		"lint": "vp fmt --check && vp lint",
 		"format": "vp fmt",
-		"write-package-json": "node ./scripts/package-json-writer.js",
 		"add-exports": "node ./scripts/add-exports-to-package-json.js",
-		"package:publish": "standard-version && git push --follow-tags origin main && npm run package && npm run add-exports && npm run write-package-json && npm publish",
-		"prepare": "vp config"
+		"package:publish": "vp run consumer-check && npm publish && git tag v$npm_package_version && git push origin v$npm_package_version",
+		"prepare": "vp config",
+		"consumer-check": "bash scripts/consumer-check.sh"
 	},
 	"files": [
 		"dist",
@@ -32,23 +32,28 @@
 	],
 	"peerDependencies": {
 		"svelte": "^5.0.0",
-		"tailwind-merge": "^2.2.2",
-		"tailwindcss": "^3.4.2"
+		"tailwind-merge": "^3.0.0",
+		"tailwindcss": "^4.0.0"
 	},
 	"devDependencies": {
+		"@floating-ui/dom": "^1.8.0",
 		"@playwright/test": "1.65.0",
 		"@sveltejs/adapter-vercel": "7.0.2",
 		"@sveltejs/kit": "3.1.1",
 		"@sveltejs/package": "3.0.2",
 		"@sveltejs/vite-plugin-svelte": "7.3.1",
+		"@tailwindcss/postcss": "^4.3.4",
 		"@tailwindcss/typography": "0.5.20",
+		"@tailwindcss/vite": "^4.3.4",
 		"autoprefixer": "^10.6.2",
 		"flowbite": "^3.1.2",
 		"flowbite-svelte": "^1.33.1",
+		"flowbite-svelte-icons": "^3.1.0",
 		"postcss": "^8.5.32",
 		"publint": "0.3.25",
 		"svelte": "5.57.3",
 		"svelte-check": "4.7.8",
+		"svelte-meta-tags": "^5.0.3",
 		"tailwind-merge": "3.7.0",
 		"tailwindcss": "4.3.4",
 		"tslib": "^2.9.1",
@@ -69,7 +74,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/candidosales/svelte-shopify-polaris-icons/"
+		"url": "git+https://github.com/candidosales/svelte-shopify-polaris-icons.git"
 	},
 	"exports": {
 		".": {
@@ -2370,13 +2375,6 @@
 		}
 	},
 	"license": "MIT",
-	"dependencies": {
-		"@floating-ui/dom": "^1.8.0",
-		"@tailwindcss/postcss": "^4.3.4",
-		"@tailwindcss/vite": "^4.3.4",
-		"flowbite-svelte-icons": "^3.1.0",
-		"svelte-meta-tags": "^5.0.3"
-	},
 	"overrides": {
 		"vite": "npm:@voidzero-dev/vite-plus-core@1.5.0"
 	}

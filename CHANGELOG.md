@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.19](https://github.com/candidosales/svelte-shopify-polaris-icons/compare/v0.0.18...v0.0.19) (2026-11-06)
+
+### Bug Fixes
+
+- ship `ICON_SIZES` with the package: every icon imported `../constants`, which was missing from the published tarball, so consumer builds failed
+- export `IconProps` and `ICON_SIZES`; icon props no longer depend on the unshipped `App.IconProps` global type, and all props are optional
+- peer dependencies match what the icons use: `tailwind-merge ^3`, `tailwindcss ^4`
+- demo-site packages moved from `dependencies` to `devDependencies`, so consumers no longer install them
+
+### Chores
+
+- upgrade to SvelteKit 3, Vite 8, TypeScript 6
+- migrate tooling to Vite+ (Oxlint, Oxfmt, Vitest)
+
 ### [0.0.18](https://github.com/candidosales/svelte-shopify-polaris-icons/compare/v0.0.16...v0.0.18) (2024-10-26)
 
 ### Features

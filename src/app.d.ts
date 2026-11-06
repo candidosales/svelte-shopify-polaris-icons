@@ -10,12 +10,6 @@ declare namespace App {
 		iconNameImport: string;
 	}
 
-	interface IconProps {
-		size: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
-		role: string;
-		ariaLabel: string;
-		class?: string;
-	}
 	// interface Error {}
 	// interface Locals {}
 	// interface PageData {}
