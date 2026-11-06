@@ -1,4 +1,3 @@
-
 <script lang="ts">
 	import { twMerge } from 'tailwind-merge';
 	import { ICON_SIZES } from '../constants';
@@ -12,11 +11,17 @@
 </script>
 
 <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
-    {...rest}
-    class={twMerge('shrink-0', ICON_SIZES[size], klass)}
-    {role}
-    aria-label={ariaLabel}
-    viewBox="0 0 20 20"
-><path fill-rule="evenodd" d="M10 3a.75.75 0 0 1 .686.447l4.2 9.5a.75.75 0 1 1-1.372.606l-1.35-3.053h-4.328l-1.35 3.053a.75.75 0 0 1-1.372-.606l4.2-9.5a.75.75 0 0 1 .686-.447Zm-1.5 6h3l-1.5-3.395-1.5 3.395Z"/><path d="M3.075 16.25a.75.75 0 0 1 .75-.75h12.35a.75.75 0 0 1 0 1.5h-12.35a.75.75 0 0 1-.75-.75Z"/></svg>
+	xmlns="http://www.w3.org/2000/svg"
+	fill="currentColor"
+	{...rest}
+	class={twMerge('shrink-0', ICON_SIZES[size], klass)}
+	{role}
+	aria-label={ariaLabel}
+	viewBox="0 0 20 20"
+	><path
+		fill-rule="evenodd"
+		d="M10 3a.75.75 0 0 1 .686.447l4.2 9.5a.75.75 0 1 1-1.372.606l-1.35-3.053h-4.328l-1.35 3.053a.75.75 0 0 1-1.372-.606l4.2-9.5a.75.75 0 0 1 .686-.447Zm-1.5 6h3l-1.5-3.395-1.5 3.395Z"
+	/><path
+		d="M3.075 16.25a.75.75 0 0 1 .75-.75h12.35a.75.75 0 0 1 0 1.5h-12.35a.75.75 0 0 1-.75-.75Z"
+	/></svg
+>

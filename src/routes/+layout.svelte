@@ -5,6 +5,7 @@
 
 	/**
 	 * @typedef {Object} Props
+	 * @property {import('./$types').LayoutData} data
 	 * @property {import('svelte').Snippet} [children]
 	 */
 
