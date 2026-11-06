@@ -1,13 +1,13 @@
 <script lang="ts">
 	import { twMerge } from 'tailwind-merge';
-	import { ICON_SIZES } from '../constants';
+	import { ICON_SIZES, type IconProps } from './constants';
 	let {
 		size = 'md',
 		role = 'img',
 		ariaLabel = 'mobile cancel',
 		class: klass,
 		...rest
-	}: App.IconProps = $props();
+	}: IconProps = $props();
 </script>
 
 <svg
