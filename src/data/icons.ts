@@ -572,7 +572,7 @@ import {
 	WholesaleMajor,
 	WifiMajor,
 	YoutubeMinor
-} from '$lib';
+} from '../lib/index.js';
 
 export const MAJOR_ICONS: App.Icon[] = [
 	{
