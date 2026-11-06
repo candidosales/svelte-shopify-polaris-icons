@@ -1,6 +1,6 @@
 <script>
-	import { page } from '$app/stores';
-	import '../app.scss';
+	import { page } from '$app/state';
+	import '../app.css';
 	import { MetaTags, deepMerge } from 'svelte-meta-tags';
 
 	/**
@@ -11,7 +11,7 @@
 	/** @type {Props} */
 	let { data, children } = $props();
 
-	let metaTags = $derived(deepMerge(data.baseMetaTags, $page.data.pageMetaTags));
+	let metaTags = $derived(deepMerge(data.baseMetaTags, page.data.pageMetaTags));
 </script>
 
 <MetaTags {...metaTags} />

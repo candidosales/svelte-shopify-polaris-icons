@@ -1,12 +1,14 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import tailwindcss from "@tailwindcss/vite";
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from '@sveltejs/adapter-auto';
+import tailwindcss from '@tailwindcss/vite';
 
-/** @type {import('vite').UserConfig} */
+/** @type {import('vitest/config').ViteUserConfig} */
 const config = {
-    plugins: [tailwindcss(), sveltekit()],
-    test: {
-        include: ['src/**/*.{test,spec}.{js,ts}']
-    }
+	plugins: [tailwindcss(), sveltekit({ preprocess: vitePreprocess(), adapter: adapter() })],
+	test: {
+		include: ['src/**/*.{test,spec}.{js,ts}']
+	}
 };
 
 export default config;
